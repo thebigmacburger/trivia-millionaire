@@ -23,7 +23,12 @@ document.addEventListener('DOMContentLoaded', function() {
     var actionEl = target.closest ? target.closest('[data-action]') : findActionEl(target);
     if (actionEl) {
       var action = actionEl.getAttribute('data-action');
-      if (action === 'toggle-sound-btn' || action === 'mute-toggle') {
+      var panelActions = {
+        'toggle-sound-btn': true, 'mute-toggle': true,
+        'tts-toggle': true, 'music-play-stop': true,
+        'music-prev': true, 'music-next': true
+      };
+      if (panelActions[action]) {
         SoundSystem.activate();
         var data = getDataFromEl(actionEl);
         Game.dispatch(action, data);
