@@ -1,0 +1,284 @@
+/* ============================================================
+   MAIN.CSS — Base styles, resets, typography, variables
+   ============================================================ */
+
+:root {
+  --bg-primary:      #0a0a2e;
+  --bg-secondary:    #0f0f3f;
+  --bg-card:         #141452;
+  --bg-card-hover:   #1a1a5e;
+  --gold:            #f5a623;
+  --gold-dark:       #c07d0e;
+  --gold-light:      #ffc85c;
+  --correct:         #00e676;
+  --correct-dark:    #00b248;
+  --wrong:           #ff1744;
+  --wrong-dark:      #c4001d;
+  --text-primary:    #ffffff;
+  --text-secondary:  #b0b0d0;
+  --text-muted:      #6060a0;
+  --safe-haven:      #ffeb3b;
+  --option-border:   #2a2a6e;
+  --shadow-gold:     0 0 20px rgba(245,166,35,0.5);
+  --shadow-blue:     0 0 30px rgba(64,64,200,0.4);
+  --font-heading:    'Oswald', sans-serif;
+  --font-body:       'Open Sans', sans-serif;
+  --radius-sm:       6px;
+  --radius-md:       12px;
+  --radius-lg:       20px;
+  --transition:      0.25s ease;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  min-height: 100%;
+  overflow-x: hidden;
+  line-height: 1.5;
+}
+
+#app {
+  min-height: 100vh;
+  position: relative;
+}
+
+#overlay-container {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+#overlay-container:not(:empty) {
+  pointer-events: all;
+}
+
+/* ---- Typography ---- */
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 1.2;
+}
+
+h1 { font-size: clamp(2rem, 6vw, 4rem); }
+h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); }
+h3 { font-size: clamp(1.2rem, 3vw, 1.8rem); }
+
+/* ---- Buttons ---- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 32px;
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition);
+  user-select: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.1);
+  opacity: 0;
+  transition: opacity var(--transition);
+}
+
+.btn:hover::after { opacity: 1; }
+.btn:active { transform: scale(0.97); }
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+  color: var(--bg-primary);
+  box-shadow: var(--shadow-gold);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 30px rgba(245,166,35,0.8);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--gold);
+  border: 2px solid var(--gold);
+}
+
+.btn-secondary:hover {
+  background: rgba(245,166,35,0.1);
+}
+
+.btn-icon {
+  padding: 10px 14px;
+  font-size: 1.2rem;
+  background: var(--bg-card);
+  border: 1px solid var(--option-border);
+  color: var(--text-secondary);
+  border-radius: var(--radius-sm);
+  min-width: 44px;
+}
+
+.btn-icon:hover {
+  color: var(--gold);
+  border-color: var(--gold);
+}
+
+/* ---- Cards ---- */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--option-border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  transition: all var(--transition);
+}
+
+.card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--gold);
+  box-shadow: var(--shadow-gold);
+  transform: translateY(-3px);
+}
+
+/* ---- Scrollbar ---- */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-secondary); }
+::-webkit-scrollbar-thumb {
+  background: var(--gold-dark);
+  border-radius: 3px;
+}
+
+/* ---- Utility ---- */
+.text-gold    { color: var(--gold); }
+.text-correct { color: var(--correct); }
+.text-wrong   { color: var(--wrong); }
+.text-muted   { color: var(--text-muted); }
+.text-center  { text-align: center; }
+
+.flex         { display: flex; }
+.flex-center  { display: flex; align-items: center; justify-content: center; }
+.flex-col     { flex-direction: column; }
+.gap-sm       { gap: 8px; }
+.gap-md       { gap: 16px; }
+.gap-lg       { gap: 24px; }
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---- Screen wrapper ---- */
+.screen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+}
+
+/* ---- Stars background ---- */
+.stars-bg::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    radial-gradient(1px 1px at 10% 20%, rgba(255,255,255,0.6) 0%, transparent 100%),
+    radial-gradient(1px 1px at 30% 60%, rgba(255,255,255,0.4) 0%, transparent 100%),
+    radial-gradient(1px 1px at 50% 10%, rgba(255,255,255,0.5) 0%, transparent 100%),
+    radial-gradient(1px 1px at 70% 80%, rgba(255,255,255,0.3) 0%, transparent 100%),
+    radial-gradient(1px 1px at 90% 40%, rgba(255,255,255,0.6) 0%, transparent 100%),
+    radial-gradient(1px 1px at 20% 90%, rgba(255,255,255,0.4) 0%, transparent 100%),
+    radial-gradient(1px 1px at 60% 50%, rgba(255,255,255,0.5) 0%, transparent 100%),
+    radial-gradient(1px 1px at 80% 15%, rgba(255,255,255,0.3) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ---- Volume panel ---- */
+.volume-panel {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--option-border);
+  border-radius: var(--radius-md);
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 500;
+  min-width: 230px;
+}
+
+.volume-panel.hidden { display: none; }
+
+.volume-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.volume-row label {
+  width: 60px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.volume-divider {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  margin: 2px 0;
+}
+
+.music-controls {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.volume-row input[type=range] {
+  flex: 1;
+  height: 4px;
+  accent-color: var(--gold);
+  cursor: pointer;
+}
+
+/* ---- Sound toggle button ---- */
+#sound-toggle-btn {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 501;
+}

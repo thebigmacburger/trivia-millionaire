@@ -1,0 +1,189 @@
+/* ============================================================
+   RESPONSIVE.CSS — Mobile-first breakpoints
+   ============================================================ */
+
+/* ---- Tablet breakpoint (< 900px) ---- */
+@media (max-width: 900px) {
+  .question-layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding: 12px;
+  }
+
+  .money-sidebar {
+    position: static;
+    order: -1;
+    padding: 10px;
+    max-height: none;
+  }
+
+  .money-sidebar-title {
+    display: none;
+  }
+
+  .money-ladder {
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 6px;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .ladder-item {
+    flex-shrink: 0;
+    flex-direction: column;
+    gap: 2px;
+    padding: 6px 10px;
+    text-align: center;
+    min-width: 60px;
+  }
+
+  .ladder-num {
+    width: auto;
+    font-size: 0.65rem;
+  }
+
+  .ladder-amount {
+    text-align: center;
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+
+  .options-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---- Mobile breakpoint (< 600px) ---- */
+@media (max-width: 600px) {
+  .screen {
+    padding: 12px;
+  }
+
+  .question-layout {
+    padding: 8px;
+    gap: 12px;
+  }
+
+  .question-topbar {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .timer-ring {
+    width: 80px;
+    height: 80px;
+  }
+
+  .timer-text {
+    font-size: 1.2rem;
+  }
+
+  .question-spotlight {
+    padding: 20px 16px;
+    min-height: 100px;
+  }
+
+  .option-btn {
+    padding: 12px 14px;
+    gap: 10px;
+  }
+
+  .option-letter {
+    width: 28px;
+    height: 28px;
+    font-size: 0.75rem;
+  }
+
+  .lifelines-bar {
+    gap: 8px;
+  }
+
+  .lifeline-btn {
+    padding: 8px 12px;
+    font-size: 0.75rem;
+    gap: 6px;
+  }
+
+  .category-grid {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .category-card {
+    max-width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    text-align: left;
+  }
+
+  .category-icon {
+    font-size: 2rem;
+    margin-bottom: 0;
+    flex-shrink: 0;
+  }
+
+  .summary-stats {
+    padding: 16px;
+  }
+
+  .overlay-panel {
+    padding: 20px;
+  }
+
+  .audience-chart {
+    height: 120px;
+  }
+
+  /* Volume panel */
+  .volume-panel {
+    bottom: 70px;
+    right: 8px;
+    min-width: 160px;
+  }
+
+  #sound-toggle-btn {
+    bottom: 12px;
+    right: 8px;
+  }
+
+  .game-over-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .game-over-actions .btn {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+/* ---- Very small screens ---- */
+@media (max-width: 380px) {
+  h1 { font-size: 1.8rem; }
+
+  .lifelines-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lifeline-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* ---- Large screens ---- */
+@media (min-width: 1200px) {
+  .question-layout {
+    grid-template-columns: 1fr 300px;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding: 24px;
+    align-items: start;
+  }
+}
