@@ -3,7 +3,7 @@
    ============================================================ */
 
 var MONEY_LADDER = [100, 200, 300, 500, 1000, 2000, 4000, 8000, 16000, 32000];
-var SAFE_HAVEN_INDEX = 4; // index 4 = $1,000
+var SAFE_HAVEN_INDEX = 4; // index 4 = £1,000
 
 var Scores = (function() {
   var STORAGE_KEY = 'triviaHighScores';

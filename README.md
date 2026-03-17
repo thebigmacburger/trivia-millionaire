@@ -1,7 +1,7 @@
 # Trivia Millionaire
 
 A browser-based trivia game show inspired by *Who Wants to Be a Millionaire?*
-6 rounds, 60 questions, $192,000 to win. No server required — just open `index.html`.
+6 rounds, 60 questions, £192,000 to win. No server required — just open `index.html`.
 
 ## Features
 

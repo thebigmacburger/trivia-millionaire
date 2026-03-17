@@ -17,23 +17,23 @@ function shuffle(array) {
 }
 
 /**
- * Format a number as money: 1000 → "$1,000"
+ * Format a number as money: 1000 → "£1,000"
  */
 function formatMoney(amount) {
   if (amount >= 1000000) {
-    return '$' + (amount / 1000000).toFixed(1).replace(/\.0$/, '') + 'M';
+    return '£' + (amount / 1000000).toFixed(1).replace(/\.0$/, '') + 'M';
   }
   if (amount >= 1000) {
-    return '$' + (amount / 1000).toFixed(0) + 'K';
+    return '£' + (amount / 1000).toFixed(0) + 'K';
   }
-  return '$' + amount.toLocaleString();
+  return '£' + amount.toLocaleString();
 }
 
 /**
  * Format money with full number (for summary screens)
  */
 function formatMoneyFull(amount) {
-  return '$' + amount.toLocaleString();
+  return '£' + amount.toLocaleString();
 }
 
 /**

@@ -46,7 +46,7 @@ var UI = (function() {
       '<div class="title-logo anim-fadeInUp">' +
         '<div class="subtitle">Welcome to</div>' +
         '<h1 class="title-shimmer">TRIVIA MILLIONAIRE</h1>' +
-        '<p class="tagline">6 Rounds · 60 Questions · $192,000 to win</p>' +
+        '<p class="tagline">6 Rounds · 60 Questions · £192,000 to win</p>' +
       '</div>' +
       '<div class="title-content">' +
         '<div class="high-scores-box anim-fadeInUp stagger-1">' +
