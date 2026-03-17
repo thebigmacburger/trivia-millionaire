@@ -65,6 +65,7 @@ var UI = (function() {
         '<div class="subtitle">Welcome to</div>' +
         '<h1 class="title-shimmer">TRIVIA MILLIONAIRE</h1>' +
         '<p class="tagline">6 Rounds · 60 Questions · £192,000 to win</p>' +
+        '<p class="disclaimer">For entertainment purposes only. No money is payable.</p>' +
       '</div>' +
       '<div class="title-content">' +
         '<div class="high-scores-box anim-fadeInUp stagger-1">' +
@@ -389,6 +390,7 @@ var UI = (function() {
           '<div class="final-score-amount">' + formatMoneyFull(totalScore) + '</div>' +
           (isHighScore ? '<div class="new-high-score" role="alert"><span aria-hidden="true">⭐</span> NEW HIGH SCORE! <span aria-hidden="true">⭐</span></div>' : '') +
         '</div>' +
+        '<p class="disclaimer">For entertainment purposes only. No money is payable.</p>' +
         '<div class="game-over-actions anim-fadeInUp">' +
           '<button class="btn btn-primary" data-action="play-again"><span aria-hidden="true">▶</span> Play Again</button>' +
           '<button class="btn btn-secondary" data-action="show-title"><span aria-hidden="true">🏠</span> Main Menu</button>' +
