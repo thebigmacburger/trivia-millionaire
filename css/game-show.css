@@ -201,6 +201,8 @@
 }
 
 .category-card {
+  font: inherit;
+  color: inherit;
   background: var(--bg-card);
   border: 2px solid var(--option-border);
   border-radius: var(--radius-lg);

@@ -42,6 +42,17 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }, true); // capture phase
 
+  /* ---- Keyboard: Escape closes overlays ---- */
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      var overlay = document.getElementById('overlay-container');
+      if (overlay && overlay.children.length > 0) {
+        SoundSystem.activate();
+        Game.dispatch('close-overlay', {});
+      }
+    }
+  });
+
   /* ---- Start the game engine ---- */
   Game.init();
 });

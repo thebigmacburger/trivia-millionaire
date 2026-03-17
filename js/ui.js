@@ -5,6 +5,7 @@
 var UI = (function() {
   var app = null;
   var overlayContainer = null;
+  var _timerAnnounced = {};
 
   function init() {
     app = document.getElementById('app');
@@ -13,14 +14,31 @@ var UI = (function() {
 
   function setApp(html) {
     app.innerHTML = html;
+    // Move focus to first heading so screen readers announce the new screen
+    setTimeout(function() {
+      var heading = app.querySelector('h1, h2');
+      if (heading) {
+        heading.setAttribute('tabindex', '-1');
+        heading.focus({ preventScroll: false });
+      }
+    }, 50);
   }
 
   function setOverlay(html) {
     overlayContainer.innerHTML = html;
+    // Move focus to first interactive element inside the overlay
+    setTimeout(function() {
+      var first = overlayContainer.querySelector('button:not([disabled]), [tabindex="0"]');
+      if (first) first.focus();
+    }, 80);
   }
 
   function clearOverlay() {
     overlayContainer.innerHTML = '';
+    // Restore focus to next-question button or first available lifeline
+    var focusTarget = document.querySelector('#next-btn-wrap button') ||
+                      document.querySelector('.lifelines-bar button:not([disabled])');
+    if (focusTarget) focusTarget.focus();
   }
 
   /* ============================================================
@@ -50,12 +68,12 @@ var UI = (function() {
       '</div>' +
       '<div class="title-content">' +
         '<div class="high-scores-box anim-fadeInUp stagger-1">' +
-          '<h3>🏆 High Scores</h3>' +
+          '<h3><span aria-hidden="true">🏆</span> High Scores</h3>' +
           '<ul class="score-list">' + scoresHtml + '</ul>' +
         '</div>' +
         '<div class="title-actions anim-fadeInUp stagger-2">' +
-          '<button class="btn btn-primary" data-action="start-game">▶ Start Game</button>' +
-          '<button class="btn btn-secondary" data-action="toggle-sound">🔊 Sound Settings</button>' +
+          '<button class="btn btn-primary" data-action="start-game"><span aria-hidden="true">▶</span> Start Game</button>' +
+          '<button class="btn btn-secondary" data-action="toggle-sound"><span aria-hidden="true">🔊</span> Sound Settings</button>' +
         '</div>' +
       '</div>' +
       '</div>';
@@ -98,11 +116,11 @@ var UI = (function() {
      ============================================================ */
   function renderCategorySelect(categories) {
     var cardsHtml = categories.map(function(cat, i) {
-      return '<div class="category-card anim-fadeInUp stagger-' + (i + 1) + '" ' +
+      return '<button class="category-card anim-fadeInUp stagger-' + (i + 1) + '" ' +
              'data-action="select-category" data-category-id="' + escapeHtml(cat.id) + '">' +
-        '<span class="category-icon">' + cat.icon + '</span>' +
+        '<span class="category-icon" aria-hidden="true">' + cat.icon + '</span>' +
         '<span class="category-name">' + escapeHtml(cat.name) + '</span>' +
-        '</div>';
+        '</button>';
     }).join('');
 
     var html = '<div class="screen category-screen">' +
@@ -121,8 +139,9 @@ var UI = (function() {
   function renderQuestionScreen(question, questionNumber, totalQuestions, lifelines, roundNumber) {
     var letters = ['A', 'B', 'C', 'D'];
     var optionsHtml = question.options.map(function(opt, i) {
-      return '<button class="option-btn" data-action="select-answer" data-index="' + i + '">' +
-        '<span class="option-letter">' + letters[i] + '</span>' +
+      return '<button class="option-btn" data-action="select-answer" data-index="' + i + '"' +
+             ' aria-label="' + letters[i] + ': ' + escapeHtml(opt) + '">' +
+        '<span class="option-letter" aria-hidden="true">' + letters[i] + '</span>' +
         '<span class="option-text">' + escapeHtml(opt) + '</span>' +
         '</button>';
     }).join('');
@@ -134,11 +153,13 @@ var UI = (function() {
       { key: 'phoneAFriend',icon: '📞', label: 'Phone Friend' }
     ].map(function(l) {
       var usedClass = lifelinesState[l.key] ? ' used' : '';
+      var isUsed = lifelinesState[l.key];
       return '<button class="lifeline-btn' + usedClass + '" ' +
              'data-action="use-lifeline" data-lifeline="' + l.key + '"' +
-             (lifelinesState[l.key] ? ' disabled' : '') + '>' +
-        '<span class="lifeline-icon">' + l.icon + '</span>' +
-        '<span>' + l.label + '</span>' +
+             (isUsed ? ' disabled aria-disabled="true"' : '') +
+             ' aria-label="' + l.label + (isUsed ? ', already used' : '') + '">' +
+        '<span class="lifeline-icon" aria-hidden="true">' + l.icon + '</span>' +
+        '<span aria-hidden="true">' + l.label + '</span>' +
         '</button>';
     }).join('');
 
@@ -149,18 +170,19 @@ var UI = (function() {
       else if (i < questionNumber - 1) classes += ' passed';
       if (i === SAFE_HAVEN_INDEX) classes += ' safe-haven';
 
-      return '<li class="' + classes + '" id="ladder-item-' + i + '">' +
-        '<span class="ladder-num">' + (i + 1) + '</span>' +
+      var ariaCurrent = (i === questionNumber - 1) ? ' aria-current="true"' : '';
+      return '<li class="' + classes + '" id="ladder-item-' + i + '"' + ariaCurrent + '>' +
+        '<span class="ladder-num" aria-hidden="true">' + (i + 1) + '</span>' +
         '<span class="ladder-amount">' + formatMoney(amount) + '</span>' +
         '</li>';
     }).reverse().join(''); // Reverse so highest is at top
 
-    var timerHtml = '<div class="timer-ring" id="timer-ring">' +
-      '<svg class="timer-svg" viewBox="0 0 110 110">' +
+    var timerHtml = '<div class="timer-ring" id="timer-ring" role="timer" aria-label="Time remaining">' +
+      '<svg class="timer-svg" viewBox="0 0 110 110" aria-hidden="true">' +
         '<circle class="timer-track" cx="55" cy="55" r="45"/>' +
         '<circle class="timer-progress" cx="55" cy="55" r="45" id="timer-progress"/>' +
       '</svg>' +
-      '<div class="timer-text" id="timer-text">--</div>' +
+      '<div class="timer-text" id="timer-text" aria-hidden="true">--</div>' +
       '</div>';
 
     var html = '<div class="question-layout">' +
@@ -181,8 +203,8 @@ var UI = (function() {
           optionsHtml +
         '</div>' +
         // Explanation
-        '<div class="explanation-box" id="explanation-box">' +
-          '<p><strong>💡 Did you know?</strong> ' + escapeHtml(question.explanation || '') + '</p>' +
+        '<div class="explanation-box" id="explanation-box" aria-live="polite">' +
+          '<p><strong><span aria-hidden="true">💡</span> Did you know?</strong> ' + escapeHtml(question.explanation || '') + '</p>' +
         '</div>' +
         // Lifelines
         '<div class="lifelines-bar">' +
@@ -195,11 +217,12 @@ var UI = (function() {
       '</div>' +
       // Sidebar
       '<div class="money-sidebar">' +
-        '<div class="money-sidebar-title">Money Ladder</div>' +
-        '<ul class="money-ladder">' + ladderHtml + '</ul>' +
+        '<div class="money-sidebar-title" aria-hidden="true">Money Ladder</div>' +
+        '<ul class="money-ladder" aria-label="Money ladder">' + ladderHtml + '</ul>' +
       '</div>' +
       '</div>';
 
+    _timerAnnounced = {};
     setApp(html);
   }
 
@@ -230,6 +253,19 @@ var UI = (function() {
       optionBtns[question.answer].classList.add('correct');
     }
 
+    // Announce result to screen readers
+    var resultText;
+    if (selectedIndex !== null && selectedIndex !== undefined) {
+      if (selectedIndex === question.answer) {
+        resultText = 'Correct!';
+      } else {
+        resultText = 'Wrong. The correct answer was: ' + question.options[question.answer];
+      }
+    } else {
+      resultText = 'Time\'s up. The correct answer was: ' + question.options[question.answer];
+    }
+    announce(resultText);
+
     // Show next button
     var nextWrap = document.getElementById('next-btn-wrap');
     if (nextWrap) nextWrap.style.display = 'flex';
@@ -259,6 +295,12 @@ var UI = (function() {
 
     var secs = Math.ceil(remaining);
     timerText.textContent = secs;
+
+    // Announce at 10s and 5s for screen readers
+    if ((secs === 10 || secs === 5) && !_timerAnnounced[secs] && secs > 0) {
+      _timerAnnounced[secs] = true;
+      announce(secs + ' seconds remaining');
+    }
 
     // Color states
     if (timerRing) {
@@ -296,7 +338,7 @@ var UI = (function() {
   function renderRoundSummary(roundNumber, roundEarnings, totalScore, roundsLeft) {
     var html = '<div class="screen summary-screen">' +
       '<div class="summary-content">' +
-        '<span class="summary-check anim-scaleIn">✅</span>' +
+        '<span class="summary-check anim-scaleIn" aria-hidden="true">✅</span>' +
         '<h2 class="summary-title anim-slideUp">Round ' + roundNumber + ' Complete!</h2>' +
         '<div class="summary-stats anim-fadeInUp">' +
           '<div class="summary-stat">' +
@@ -339,17 +381,17 @@ var UI = (function() {
     var html = '<div class="screen game-over-screen">' +
       '<div class="spotlight-overlay"></div>' +
       '<div class="game-over-content">' +
-        '<span class="game-over-trophy anim-scaleIn">' + trophy + '</span>' +
+        '<span class="game-over-trophy anim-scaleIn" aria-hidden="true">' + trophy + '</span>' +
         '<h1 class="game-over-title title-shimmer anim-fadeInUp">Game Over</h1>' +
         '<p class="game-over-subtitle anim-fadeIn">' + escapeHtml(subtitle) + '</p>' +
         '<div class="final-score-display anim-scaleIn">' +
           '<div class="final-score-label">Final Score</div>' +
           '<div class="final-score-amount">' + formatMoneyFull(totalScore) + '</div>' +
-          (isHighScore ? '<div class="new-high-score">⭐ NEW HIGH SCORE! ⭐</div>' : '') +
+          (isHighScore ? '<div class="new-high-score" role="alert"><span aria-hidden="true">⭐</span> NEW HIGH SCORE! <span aria-hidden="true">⭐</span></div>' : '') +
         '</div>' +
         '<div class="game-over-actions anim-fadeInUp">' +
-          '<button class="btn btn-primary" data-action="play-again">▶ Play Again</button>' +
-          '<button class="btn btn-secondary" data-action="show-title">🏠 Main Menu</button>' +
+          '<button class="btn btn-primary" data-action="play-again"><span aria-hidden="true">▶</span> Play Again</button>' +
+          '<button class="btn btn-secondary" data-action="show-title"><span aria-hidden="true">🏠</span> Main Menu</button>' +
         '</div>' +
       '</div>' +
       '</div>';
@@ -379,14 +421,14 @@ var UI = (function() {
     }).join('');
 
     var html = '<div class="overlay-backdrop" id="audience-overlay">' +
-      '<div class="overlay-panel anim-scaleIn">' +
-        '<div class="overlay-title">👥 Ask the Audience</div>' +
+      '<div class="overlay-panel anim-scaleIn" role="dialog" aria-modal="true" aria-labelledby="audience-overlay-title">' +
+        '<div class="overlay-title" id="audience-overlay-title"><span aria-hidden="true">👥</span> Ask the Audience</div>' +
         '<div class="audience-chart">' + barsHtml + '</div>' +
         '<p style="text-align:center; color: var(--text-muted); font-size:0.85rem; margin-bottom:16px">' +
           'The audience has voted!' +
         '</p>' +
         '<div style="text-align:center">' +
-          '<button class="btn btn-secondary" data-action="close-overlay">Got it, thanks!</button>' +
+          '<button class="btn btn-secondary" data-action="close-overlay">Close</button>' +
         '</div>' +
       '</div>' +
       '</div>';
@@ -408,10 +450,10 @@ var UI = (function() {
 
   function renderPhoneOverlay(data) {
     var html = '<div class="overlay-backdrop" id="phone-overlay">' +
-      '<div class="overlay-panel anim-scaleIn">' +
-        '<div class="overlay-title">📞 Phone a Friend</div>' +
+      '<div class="overlay-panel anim-scaleIn" role="dialog" aria-modal="true" aria-labelledby="phone-overlay-title">' +
+        '<div class="overlay-title" id="phone-overlay-title"><span aria-hidden="true">📞</span> Phone a Friend</div>' +
         '<div class="phone-dialogue">' +
-          '<div class="phone-avatar">🧑‍💼</div>' +
+          '<div class="phone-avatar" aria-hidden="true">🧑‍💼</div>' +
           '<div class="phone-name">' + escapeHtml(data.friendName) + ' says:</div>' +
           '<div class="phone-message" id="phone-msg">' +
             '<span class="typing-indicator">' +
@@ -422,7 +464,7 @@ var UI = (function() {
           '</div>' +
         '</div>' +
         '<div style="text-align:center">' +
-          '<button class="btn btn-secondary" data-action="close-overlay" id="phone-close-btn" style="display:none">Thanks, ' + escapeHtml(data.friendName) + '!</button>' +
+          '<button class="btn btn-secondary" data-action="close-overlay" id="phone-close-btn" style="display:none">Close</button>' +
         '</div>' +
       '</div>' +
       '</div>';
@@ -466,32 +508,34 @@ var UI = (function() {
     var panel = document.createElement('div');
     panel.id = 'volume-panel';
     panel.className = 'volume-panel hidden';
+    panel.setAttribute('role', 'region');
+    panel.setAttribute('aria-label', 'Sound settings');
     panel.innerHTML =
       '<div class="volume-row">' +
-        '<label>Master</label>' +
-        '<input type="range" min="0" max="1" step="0.05" value="' + settings.master + '" data-volume="master">' +
+        '<label for="vol-master">Master</label>' +
+        '<input id="vol-master" type="range" min="0" max="1" step="0.05" value="' + settings.master + '" data-volume="master" aria-label="Master volume">' +
       '</div>' +
       '<div class="volume-row">' +
-        '<label>SFX</label>' +
-        '<input type="range" min="0" max="1" step="0.05" value="' + settings.sfx + '" data-volume="sfx">' +
+        '<label for="vol-sfx">SFX</label>' +
+        '<input id="vol-sfx" type="range" min="0" max="1" step="0.05" value="' + settings.sfx + '" data-volume="sfx" aria-label="Sound effects volume">' +
       '</div>' +
       '<div class="volume-row">' +
-        '<label>Music Vol</label>' +
-        '<input type="range" min="0" max="1" step="0.05" value="' + settings.music + '" data-volume="music">' +
+        '<label for="vol-music">Music Vol</label>' +
+        '<input id="vol-music" type="range" min="0" max="1" step="0.05" value="' + settings.music + '" data-volume="music" aria-label="Music volume">' +
       '</div>' +
       '<div class="volume-row">' +
         '<label>Mute</label>' +
-        '<button class="btn btn-icon" data-action="mute-toggle" style="font-size:0.8rem;padding:4px 8px;">' +
+        '<button class="btn btn-icon" data-action="mute-toggle" aria-pressed="' + !!settings.muted + '" style="font-size:0.8rem;padding:4px 8px;">' +
           (settings.muted ? 'Unmute' : 'Mute') +
         '</button>' +
       '</div>' +
       '<div class="volume-divider"></div>' +
       '<div class="volume-row">' +
-        '<label>🎵 Music</label>' +
+        '<label><span aria-hidden="true">🎵</span> Music</label>' +
         '<div class="music-controls">' +
-          '<button class="btn btn-icon" data-action="music-prev" title="Previous" style="padding:4px 7px;">⏮</button>' +
-          '<button class="btn btn-icon" id="music-play-btn" data-action="music-play-stop" style="padding:4px 9px;">▶ Play</button>' +
-          '<button class="btn btn-icon" data-action="music-next" title="Next" style="padding:4px 7px;">⏭</button>' +
+          '<button class="btn btn-icon" data-action="music-prev" aria-label="Previous track" style="padding:4px 7px;"><span aria-hidden="true">⏮</span></button>' +
+          '<button class="btn btn-icon" id="music-play-btn" data-action="music-play-stop" aria-label="Play music" style="padding:4px 9px;"><span aria-hidden="true">▶</span> Play</button>' +
+          '<button class="btn btn-icon" data-action="music-next" aria-label="Next track" style="padding:4px 7px;"><span aria-hidden="true">⏭</span></button>' +
         '</div>' +
       '</div>' +
       '<div class="volume-row">' +
@@ -501,8 +545,8 @@ var UI = (function() {
       '<div class="volume-divider"></div>' +
       (ttsSupported
         ? '<div class="volume-row">' +
-            '<label>🔈 Read Aloud</label>' +
-            '<button class="btn btn-icon" id="tts-toggle-btn" data-action="tts-toggle" style="font-size:0.8rem;padding:4px 8px;">' +
+            '<label><span aria-hidden="true">🔈</span> Read Aloud</label>' +
+            '<button class="btn btn-icon" id="tts-toggle-btn" data-action="tts-toggle" aria-pressed="' + !!ttsEnabled + '" style="font-size:0.8rem;padding:4px 8px;">' +
               (ttsEnabled ? 'ON' : 'OFF') +
             '</button>' +
           '</div>'

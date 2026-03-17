@@ -93,3 +93,13 @@ function escapeHtml(str) {
   div.appendChild(document.createTextNode(String(str)));
   return div.innerHTML;
 }
+
+/**
+ * Announce text to screen readers via the sr-announcer live region
+ */
+function announce(text) {
+  var el = document.getElementById('sr-announcer');
+  if (!el) return;
+  el.textContent = '';
+  setTimeout(function() { el.textContent = text; }, 10);
+}
