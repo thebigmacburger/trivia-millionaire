@@ -2521,20 +2521,6 @@
       "explanation": "Serena Williams won the Wimbledon Ladies' Singles Championship 7 times (2002, 2003, 2009, 2010, 2012, 2015, 2016), along with 23 Grand Slam singles titles in total — the most by any player in the Open Era."
     },
     {
-      "id": 206,
-      "category": "sports",
-      "difficulty": 1,
-      "question": "What sport is played at the Masters Tournament in Augusta, Georgia?",
-      "options": [
-        "Tennis",
-        "Polo",
-        "Golf",
-        "Croquet"
-      ],
-      "answer": 2,
-      "explanation": "The Masters Tournament is one of the four major championships in men's professional golf, held annually at Augusta National Golf Club. The winner receives a distinctive green jacket."
-    },
-    {
       "id": 207,
       "category": "sports",
       "difficulty": 2,
@@ -3557,20 +3543,6 @@
       "explanation": "Athens, under the leadership of Pericles (460-429 BC), developed into a direct democracy where citizens voted on major decisions. This period saw the flourishing of philosophy, drama, and architecture, including the construction of the Parthenon."
     },
     {
-      "id": 283,
-      "category": "history",
-      "difficulty": 3,
-      "question": "What was the primary purpose of the original Great Wall of China?",
-      "options": [
-        "Recreation for emperors",
-        "Military defense against invaders",
-        "Trade route protection",
-        "Religious monument"
-      ],
-      "answer": 1,
-      "explanation": "The Great Wall of China was primarily built as a military defense to protect Chinese states from invasions by nomadic groups, particularly the Mongols and other northern peoples. It also served to regulate trade and movement along the Silk Road."
-    },
-    {
       "id": 284,
       "category": "history",
       "difficulty": 4,
@@ -3597,20 +3569,6 @@
       ],
       "answer": 1,
       "explanation": "Australia is home to many unique marsupials including kangaroos, koalas, wallabies, and wombats. These animals evolved in isolation for millions of years after Australia separated from other landmasses, creating its unique fauna."
-    },
-    {
-      "id": 287,
-      "category": "geography",
-      "difficulty": 2,
-      "question": "What is the largest ocean on Earth?",
-      "options": [
-        "Atlantic Ocean",
-        "Indian Ocean",
-        "Arctic Ocean",
-        "Pacific Ocean"
-      ],
-      "answer": 3,
-      "explanation": "The Pacific Ocean is the largest ocean on Earth, covering approximately 46% of the world's ocean surface and about 32% of the Earth's total surface area. It is deeper on average than other oceans and covers an area larger than all the land on Earth combined."
     },
     {
       "id": 288,
@@ -3641,20 +3599,6 @@
       "explanation": "Wellington is the capital and second-largest city of New Zealand. Although Auckland is larger, Wellington has been the capital since 1865. The city is known for its harbor, creative culture, and position as the political center of the country."
     },
     {
-      "id": 290,
-      "category": "geography",
-      "difficulty": 3,
-      "question": "Which is the smallest independent country in the world by area?",
-      "options": [
-        "Monaco",
-        "San Marino",
-        "Liechtenstein",
-        "Vatican City"
-      ],
-      "answer": 3,
-      "explanation": "Vatican City is the smallest independent country in the world, with an area of just 0.44 square kilometers (0.17 square miles). It is an independent city-state enclaved within Rome, Italy, and is the spiritual and administrative center of the Roman Catholic Church."
-    },
-    {
       "id": 291,
       "category": "geography",
       "difficulty": 4,
@@ -3669,20 +3613,6 @@
       "explanation": "The capital of Kazakhstan is Nur-Sultan (formerly called Astana and Akmola), located in the north-central part of the country. It became the capital in 1997, replacing Almaty. The city has grown rapidly from a small town into a modern metropolis."
     },
     {
-      "id": 292,
-      "category": "geography",
-      "difficulty": 4,
-      "question": "Which African country is home to Mount Kilimanjaro?",
-      "options": [
-        "Kenya",
-        "Uganda",
-        "Tanzania",
-        "Ethiopia"
-      ],
-      "answer": 2,
-      "explanation": "Mount Kilimanjaro, the highest mountain in Africa at 5,895 meters (19,341 feet), is located in Tanzania. The inactive volcano has three volcanic cones and is a UNESCO World Heritage Site and one of the Seven Summits."
-    },
-    {
       "id": 293,
       "category": "geography",
       "difficulty": 5,
@@ -3695,20 +3625,6 @@
       ],
       "answer": 0,
       "explanation": "The Mariana Trench (specifically the Challenger Deep) in the western Pacific Ocean is the deepest point in the world's oceans at approximately 11,034 meters (36,201 feet) below sea level. It is located near the island of Guam."
-    },
-    {
-      "id": 294,
-      "category": "geography",
-      "difficulty": 1,
-      "question": "What is the longest river in the world?",
-      "options": [
-        "Amazon River",
-        "Yangtze River",
-        "Mississippi River",
-        "Nile River"
-      ],
-      "answer": 3,
-      "explanation": "The Nile River in Africa is the longest river in the world at approximately 6,650 kilometers (4,130 miles). It flows through northeastern Africa, including Egypt, Sudan, and Uganda, and has been central to Egyptian civilization for millennia."
     },
     {
       "id": 295,
@@ -3933,20 +3849,6 @@
       ],
       "answer": 1,
       "explanation": "A deuce in tennis is when both players reach 40-40 (or 40-40 in game points). To win from a deuce, a player must win by 2 consecutive points. The first point after deuce is called 'advantage.'"
-    },
-    {
-      "id": 314,
-      "category": "sports",
-      "difficulty": 2,
-      "question": "How many players are on a soccer/football field per team during a match?",
-      "options": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "answer": 2,
-      "explanation": "There are 11 players per team on a soccer field during a match. This typically includes 1 goalkeeper, 4 defenders, 4 midfielders, and 2 forwards, though formations vary. Up to 3 substitutions are allowed per team (5 in some competitions)."
     },
     {
       "id": 315,
@@ -4453,20 +4355,6 @@
       "explanation": "A geologist is a scientist who studies the Earth, including its materials, structures, and processes. A mineralogist specifically studies minerals, while a petrologist studies rocks (petrology is the study of rocks)."
     },
     {
-      "id": 353,
-      "category": "general",
-      "difficulty": 3,
-      "question": "How many players are on a volleyball team on the court at any time?",
-      "options": [
-        "4",
-        "5",
-        "6",
-        "7"
-      ],
-      "answer": 2,
-      "explanation": "A volleyball team has 6 players on the court at any time. These are typically arranged in three front row and three back row positions, with players rotating positions after winning a serve."
-    },
-    {
       "id": 354,
       "category": "general",
       "difficulty": 4,
@@ -4535,6 +4423,2204 @@
       ],
       "answer": 2,
       "explanation": "Laissez-faire capitalism (from the French meaning 'allow to do') emphasizes free market forces with minimal government intervention. Adam Smith's 'The Wealth of Nations' promoted these ideas, suggesting that individual self-interest and competition lead to economic efficiency and growth."
+    },
+    {
+      "id": 361,
+      "category": "science",
+      "difficulty": 1,
+      "question": "What is the largest organ in the human body?",
+      "options": [
+        "Liver",
+        "Brain",
+        "Skin",
+        "Lungs"
+      ],
+      "answer": 2,
+      "explanation": "The skin is the largest organ, covering approximately 1.5-2 square metres in adults and serving as a protective barrier against pathogens and environmental damage."
+    },
+    {
+      "id": 362,
+      "category": "science",
+      "difficulty": 1,
+      "question": "What type of animal is a dolphin?",
+      "options": [
+        "Fish",
+        "Mammal",
+        "Reptile",
+        "Amphibian"
+      ],
+      "answer": 1,
+      "explanation": "Dolphins are mammals. They breathe air through a blowhole, are warm-blooded, give birth to live young, and nurse them with milk."
+    },
+    {
+      "id": 363,
+      "category": "science",
+      "difficulty": 1,
+      "question": "What force keeps us on the ground?",
+      "options": [
+        "Magnetism",
+        "Friction",
+        "Gravity",
+        "Inertia"
+      ],
+      "answer": 2,
+      "explanation": "Gravity is the force of attraction between objects with mass. Earth's gravity pulls us toward its centre, keeping us grounded."
+    },
+    {
+      "id": 364,
+      "category": "science",
+      "difficulty": 1,
+      "question": "Which planet is closest to the Sun?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Mercury",
+        "Earth"
+      ],
+      "answer": 2,
+      "explanation": "Mercury is the closest planet to the Sun, orbiting at an average distance of about 58 million kilometres."
+    },
+    {
+      "id": 365,
+      "category": "science",
+      "difficulty": 2,
+      "question": "What is the powerhouse of the cell?",
+      "options": [
+        "Nucleus",
+        "Ribosome",
+        "Mitochondria",
+        "Golgi apparatus"
+      ],
+      "answer": 2,
+      "explanation": "Mitochondria are often called the powerhouse of the cell because they generate most of the cell's supply of adenosine triphosphate (ATP), used as a source of chemical energy."
+    },
+    {
+      "id": 366,
+      "category": "science",
+      "difficulty": 2,
+      "question": "What type of rock is formed from cooled lava or magma?",
+      "options": [
+        "Sedimentary",
+        "Metamorphic",
+        "Igneous",
+        "Limestone"
+      ],
+      "answer": 2,
+      "explanation": "Igneous rocks form when molten rock (magma or lava) cools and solidifies. Examples include granite (from magma) and basalt (from lava)."
+    },
+    {
+      "id": 367,
+      "category": "science",
+      "difficulty": 2,
+      "question": "How many bones does an adult human body have?",
+      "options": [
+        "186",
+        "206",
+        "226",
+        "256"
+      ],
+      "answer": 1,
+      "explanation": "An adult human skeleton consists of 206 bones. Babies are born with around 270 bones, but many fuse together as they grow."
+    },
+    {
+      "id": 368,
+      "category": "science",
+      "difficulty": 2,
+      "question": "Which vitamin is produced when human skin is exposed to sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin B12",
+        "Vitamin C",
+        "Vitamin D"
+      ],
+      "answer": 3,
+      "explanation": "The skin produces vitamin D when exposed to ultraviolet B (UVB) rays from sunlight. Vitamin D is essential for calcium absorption and bone health."
+    },
+    {
+      "id": 369,
+      "category": "science",
+      "difficulty": 3,
+      "question": "What is the name of the largest known structure in the universe?",
+      "options": [
+        "Andromeda Galaxy",
+        "Hercules-Corona Borealis Great Wall",
+        "The Milky Way",
+        "Laniakea Supercluster"
+      ],
+      "answer": 1,
+      "explanation": "The Hercules-Corona Borealis Great Wall is the largest known structure in the observable universe, a massive galactic filament stretching about 10 billion light-years across."
+    },
+    {
+      "id": 370,
+      "category": "science",
+      "difficulty": 3,
+      "question": "What is the name of the process by which plants lose water through their leaves?",
+      "options": [
+        "Osmosis",
+        "Transpiration",
+        "Condensation",
+        "Perspiration"
+      ],
+      "answer": 1,
+      "explanation": "Transpiration is the process by which water evaporates from plant leaves through tiny pores called stomata. It helps drive the uptake of water from the roots."
+    },
+    {
+      "id": 371,
+      "category": "science",
+      "difficulty": 4,
+      "question": "What is the name of the phenomenon where light bends as it passes from one medium to another?",
+      "options": [
+        "Diffraction",
+        "Reflection",
+        "Refraction",
+        "Polarisation"
+      ],
+      "answer": 2,
+      "explanation": "Refraction occurs when light changes speed as it passes between media of different densities (e.g., air to water), causing it to bend. This is why objects appear distorted underwater."
+    },
+    {
+      "id": 372,
+      "category": "science",
+      "difficulty": 4,
+      "question": "What is the term for the minimum energy required to start a chemical reaction?",
+      "options": [
+        "Kinetic energy",
+        "Activation energy",
+        "Potential energy",
+        "Thermal energy"
+      ],
+      "answer": 1,
+      "explanation": "Activation energy is the minimum amount of energy required to initiate a chemical reaction. Catalysts work by lowering the activation energy needed."
+    },
+    {
+      "id": 373,
+      "category": "science",
+      "difficulty": 5,
+      "question": "What is the Chandrasekhar limit?",
+      "options": [
+        "The maximum mass of a stable white dwarf star",
+        "The minimum mass needed for nuclear fusion",
+        "The speed limit of particles in a vacuum",
+        "The maximum size of a black hole"
+      ],
+      "answer": 0,
+      "explanation": "The Chandrasekhar limit (approximately 1.4 solar masses) is the maximum mass a white dwarf star can have while remaining stable. Above this limit, electron degeneracy pressure cannot support the star against gravitational collapse."
+    },
+    {
+      "id": 374,
+      "category": "science",
+      "difficulty": 5,
+      "question": "What is the name of the theoretical radiation emitted by black holes?",
+      "options": [
+        "Cherenkov radiation",
+        "Hawking radiation",
+        "Cosmic microwave background",
+        "Bremsstrahlung"
+      ],
+      "answer": 1,
+      "explanation": "Hawking radiation, predicted by Stephen Hawking in 1974, is theoretical thermal radiation emitted by black holes due to quantum effects near the event horizon. Over time, this would cause black holes to slowly evaporate."
+    },
+    {
+      "id": 375,
+      "category": "science",
+      "difficulty": 5,
+      "question": "What is CRISPR-Cas9 primarily used for?",
+      "options": [
+        "Medical imaging",
+        "Gene editing",
+        "Protein synthesis analysis",
+        "Drug delivery"
+      ],
+      "answer": 1,
+      "explanation": "CRISPR-Cas9 is a revolutionary gene-editing tool that allows scientists to precisely modify DNA sequences. It works like molecular scissors, cutting DNA at specific locations to remove, add, or alter genetic material."
+    },
+    {
+      "id": 376,
+      "category": "science",
+      "difficulty": 5,
+      "question": "What is the anthropic principle in cosmology?",
+      "options": [
+        "The universe was designed for humans",
+        "The observed universe must be compatible with the existence of observers",
+        "Humans are the centre of the universe",
+        "The universe has no purpose"
+      ],
+      "answer": 1,
+      "explanation": "The anthropic principle states that the universe's fundamental constants must be compatible with the existence of conscious observers. It explains why certain physical constants appear 'fine-tuned' — if they were different, observers like us could not exist to measure them."
+    },
+    {
+      "id": 377,
+      "category": "science",
+      "difficulty": 1,
+      "question": "What is the boiling point of water at sea level in degrees Celsius?",
+      "options": [
+        "90°C",
+        "95°C",
+        "100°C",
+        "110°C"
+      ],
+      "answer": 2,
+      "explanation": "Water boils at 100°C (212°F) at standard atmospheric pressure (sea level). At higher altitudes, water boils at lower temperatures due to reduced atmospheric pressure."
+    },
+    {
+      "id": 378,
+      "category": "science",
+      "difficulty": 2,
+      "question": "What is the largest planet in our solar system?",
+      "options": [
+        "Saturn",
+        "Neptune",
+        "Jupiter",
+        "Uranus"
+      ],
+      "answer": 2,
+      "explanation": "Jupiter is the largest planet in our solar system, with a diameter of about 143,000 kilometres — more than 11 times the diameter of Earth."
+    },
+    {
+      "id": 379,
+      "category": "science",
+      "difficulty": 3,
+      "question": "What element does the chemical symbol 'Hg' represent?",
+      "options": [
+        "Helium",
+        "Hydrogen",
+        "Mercury",
+        "Hafnium"
+      ],
+      "answer": 2,
+      "explanation": "Hg is the chemical symbol for mercury, derived from the Latin 'hydrargyrum' meaning 'liquid silver.' Mercury is the only metal that is liquid at standard room temperature."
+    },
+    {
+      "id": 380,
+      "category": "science",
+      "difficulty": 4,
+      "question": "What is the name of the bond formed when atoms share electrons?",
+      "options": [
+        "Ionic bond",
+        "Covalent bond",
+        "Metallic bond",
+        "Hydrogen bond"
+      ],
+      "answer": 1,
+      "explanation": "A covalent bond forms when two atoms share one or more pairs of electrons. This is common between non-metal atoms and results in stable molecules like water (H2O) and carbon dioxide (CO2)."
+    },
+    {
+      "id": 381,
+      "category": "history",
+      "difficulty": 1,
+      "question": "Which country built the Great Wall?",
+      "options": [
+        "Japan",
+        "India",
+        "China",
+        "Mongolia"
+      ],
+      "answer": 2,
+      "explanation": "The Great Wall of China was built over many centuries, primarily to protect Chinese states and empires from northern invasions. Construction began as early as the 7th century BC."
+    },
+    {
+      "id": 383,
+      "category": "history",
+      "difficulty": 2,
+      "question": "Which empire was the largest in history by land area?",
+      "options": [
+        "Roman Empire",
+        "Mongol Empire",
+        "British Empire",
+        "Ottoman Empire"
+      ],
+      "answer": 2,
+      "explanation": "The British Empire was the largest empire in history, covering about 35.5 million square kilometres at its peak in 1920 — roughly a quarter of the world's land area."
+    },
+    {
+      "id": 384,
+      "category": "history",
+      "difficulty": 2,
+      "question": "Who was the first man to walk on the Moon?",
+      "options": [
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "John Glenn"
+      ],
+      "answer": 2,
+      "explanation": "Neil Armstrong became the first person to walk on the Moon on 20 July 1969 during the Apollo 11 mission, famously saying, 'That's one small step for man, one giant leap for mankind.'"
+    },
+    {
+      "id": 385,
+      "category": "history",
+      "difficulty": 3,
+      "question": "What was the name of the trade route that connected East Africa, Arabia, and India by sea?",
+      "options": [
+        "Silk Road",
+        "Spice Route",
+        "Trans-Saharan Route",
+        "Amber Road"
+      ],
+      "answer": 1,
+      "explanation": "The Spice Route was a network of sea routes connecting the East to the West, used for the trade of spices, silk, and other goods. It linked East Africa, Arabia, India, and Southeast Asia."
+    },
+    {
+      "id": 386,
+      "category": "history",
+      "difficulty": 3,
+      "question": "Which treaty formally ended World War I?",
+      "options": [
+        "Treaty of Paris",
+        "Treaty of Versailles",
+        "Treaty of Ghent",
+        "Treaty of Westphalia"
+      ],
+      "answer": 1,
+      "explanation": "The Treaty of Versailles was signed on 28 June 1919, formally ending World War I. It imposed harsh reparations on Germany and redrew European borders."
+    },
+    {
+      "id": 387,
+      "category": "history",
+      "difficulty": 3,
+      "question": "Who was the last Tsar of Russia?",
+      "options": [
+        "Alexander III",
+        "Peter the Great",
+        "Ivan the Terrible",
+        "Nicholas II"
+      ],
+      "answer": 3,
+      "explanation": "Nicholas II was the last Tsar of Russia, ruling from 1894 until his forced abdication in 1917 during the Russian Revolution. He and his family were executed in 1918."
+    },
+    {
+      "id": 388,
+      "category": "history",
+      "difficulty": 3,
+      "question": "In which year did the United States declare independence from Britain?",
+      "options": [
+        "1774",
+        "1775",
+        "1776",
+        "1777"
+      ],
+      "answer": 2,
+      "explanation": "The United States declared independence on 4 July 1776, when the Continental Congress adopted the Declaration of Independence, primarily authored by Thomas Jefferson."
+    },
+    {
+      "id": 389,
+      "category": "history",
+      "difficulty": 4,
+      "question": "What was the primary cause of the Irish Potato Famine (1845-1852)?",
+      "options": [
+        "Drought",
+        "A potato blight caused by Phytophthora infestans",
+        "Locust swarms",
+        "Flooding"
+      ],
+      "answer": 1,
+      "explanation": "The Irish Potato Famine was caused by a potato blight (Phytophthora infestans), which destroyed potato crops across Ireland. About one million people died and another million emigrated."
+    },
+    {
+      "id": 390,
+      "category": "history",
+      "difficulty": 4,
+      "question": "Which ancient civilisation is credited with inventing the wheel?",
+      "options": [
+        "Egyptians",
+        "Sumerians",
+        "Greeks",
+        "Chinese"
+      ],
+      "answer": 1,
+      "explanation": "The Sumerians of Mesopotamia (modern-day Iraq) are credited with inventing the wheel around 3500 BC. It was initially used for pottery before being adapted for transportation."
+    },
+    {
+      "id": 391,
+      "category": "history",
+      "difficulty": 5,
+      "question": "What was the Defenestration of Prague?",
+      "options": [
+        "A famous art exhibition",
+        "The throwing of officials from a window that sparked the Thirty Years' War",
+        "A plague outbreak in Prague",
+        "A military siege of Prague Castle"
+      ],
+      "answer": 1,
+      "explanation": "The Defenestration of Prague in 1618 involved Protestant nobles throwing two Catholic imperial governors and their secretary from a window of Prague Castle. This event triggered the Thirty Years' War."
+    },
+    {
+      "id": 392,
+      "category": "history",
+      "difficulty": 5,
+      "question": "Which ancient battle in 480 BC saw 300 Spartans hold a narrow pass against the Persian army?",
+      "options": [
+        "Battle of Marathon",
+        "Battle of Salamis",
+        "Battle of Thermopylae",
+        "Battle of Plataea"
+      ],
+      "answer": 2,
+      "explanation": "The Battle of Thermopylae in 480 BC saw King Leonidas I and 300 Spartans (along with other Greek allies) make a famous last stand against King Xerxes' massive Persian army at a narrow coastal pass."
+    },
+    {
+      "id": 393,
+      "category": "history",
+      "difficulty": 5,
+      "question": "What was the Congress of Vienna (1814-1815)?",
+      "options": [
+        "A scientific conference",
+        "A peace conference to redraw European borders after Napoleon",
+        "A meeting to establish the United Nations",
+        "A trade agreement between European powers"
+      ],
+      "answer": 1,
+      "explanation": "The Congress of Vienna was a diplomatic meeting of European powers to restore order and redraw borders after the Napoleonic Wars. It established a balance of power that largely maintained peace in Europe for nearly a century."
+    },
+    {
+      "id": 394,
+      "category": "history",
+      "difficulty": 5,
+      "question": "Who was Hatshepsut?",
+      "options": [
+        "A Greek philosopher",
+        "A female pharaoh of ancient Egypt",
+        "A Roman empress",
+        "A Mesopotamian queen"
+      ],
+      "answer": 1,
+      "explanation": "Hatshepsut was one of the most successful pharaohs of ancient Egypt, ruling from approximately 1478-1458 BC. She is one of the few confirmed female pharaohs and oversaw major building projects and trade expeditions."
+    },
+    {
+      "id": 395,
+      "category": "history",
+      "difficulty": 3,
+      "question": "What was the Meiji Restoration in Japan?",
+      "options": [
+        "A religious movement",
+        "A period of imperial rule restoration and modernisation in the 1860s",
+        "A military coup in the 1940s",
+        "A cultural renaissance in the 1700s"
+      ],
+      "answer": 1,
+      "explanation": "The Meiji Restoration of 1868 restored imperial rule under Emperor Meiji and launched rapid modernisation and industrialisation of Japan, transforming it from a feudal society into a modern industrial state."
+    },
+    {
+      "id": 397,
+      "category": "history",
+      "difficulty": 4,
+      "question": "What was the Domesday Book?",
+      "options": [
+        "A medieval religious text",
+        "A record of English landholdings commissioned by William the Conqueror",
+        "A book of prophecies",
+        "A collection of Anglo-Saxon laws"
+      ],
+      "answer": 1,
+      "explanation": "The Domesday Book was a comprehensive survey of English landholdings completed in 1086, commissioned by William the Conqueror. It recorded the ownership, value, and resources of virtually every piece of land in England."
+    },
+    {
+      "id": 398,
+      "category": "history",
+      "difficulty": 3,
+      "question": "Which revolution began in 1917 and led to the creation of the Soviet Union?",
+      "options": [
+        "French Revolution",
+        "Industrial Revolution",
+        "Russian Revolution",
+        "Cuban Revolution"
+      ],
+      "answer": 2,
+      "explanation": "The Russian Revolution of 1917 overthrew the Tsarist autocracy and eventually led to the establishment of the Soviet Union in 1922 under Bolshevik leadership."
+    },
+    {
+      "id": 399,
+      "category": "history",
+      "difficulty": 1,
+      "question": "What was the name of the ancient Egyptian writing system that used pictures and symbols?",
+      "options": [
+        "Cuneiform",
+        "Hieroglyphics",
+        "Runes",
+        "Sanskrit"
+      ],
+      "answer": 1,
+      "explanation": "Hieroglyphics was the formal writing system used in ancient Egypt, consisting of pictorial symbols representing words, sounds, and concepts. The Rosetta Stone was key to deciphering them."
+    },
+    {
+      "id": 400,
+      "category": "history",
+      "difficulty": 4,
+      "question": "What was the Scramble for Africa?",
+      "options": [
+        "A gold rush in South Africa",
+        "European colonisation and division of Africa in the late 19th century",
+        "An African independence movement",
+        "A trade competition among African kingdoms"
+      ],
+      "answer": 1,
+      "explanation": "The Scramble for Africa (1881-1914) was the rapid colonisation and division of Africa by European powers. The Berlin Conference of 1884-85 set the rules for this partition, with little regard for existing African boundaries or peoples."
+    },
+    {
+      "id": 401,
+      "category": "geography",
+      "difficulty": 1,
+      "question": "What is the capital city of France?",
+      "options": [
+        "Lyon",
+        "Marseille",
+        "Paris",
+        "Nice"
+      ],
+      "answer": 2,
+      "explanation": "Paris is the capital city of France and its largest city, home to iconic landmarks like the Eiffel Tower, the Louvre Museum, and Notre-Dame Cathedral."
+    },
+    {
+      "id": 402,
+      "category": "geography",
+      "difficulty": 1,
+      "question": "Which continent is Egypt located on?",
+      "options": [
+        "Asia",
+        "Europe",
+        "Africa",
+        "South America"
+      ],
+      "answer": 2,
+      "explanation": "Egypt is located on the continent of Africa, in the northeastern corner. It also has the Sinai Peninsula which extends into Asia, making it a transcontinental country."
+    },
+    {
+      "id": 403,
+      "category": "geography",
+      "difficulty": 2,
+      "question": "What is the tallest mountain in the world?",
+      "options": [
+        "K2",
+        "Mount Kilimanjaro",
+        "Mount Everest",
+        "Mont Blanc"
+      ],
+      "answer": 2,
+      "explanation": "Mount Everest is the tallest mountain above sea level at 8,849 metres (29,032 feet). It is located in the Himalayas on the border between Nepal and Tibet (China)."
+    },
+    {
+      "id": 404,
+      "category": "geography",
+      "difficulty": 2,
+      "question": "Which country has the largest population in the world?",
+      "options": [
+        "China",
+        "India",
+        "United States",
+        "Indonesia"
+      ],
+      "answer": 1,
+      "explanation": "India surpassed China as the world's most populous country in 2023, with over 1.4 billion people."
+    },
+    {
+      "id": 405,
+      "category": "geography",
+      "difficulty": 3,
+      "question": "What is the longest mountain range in the world?",
+      "options": [
+        "Himalayas",
+        "Rocky Mountains",
+        "Andes",
+        "Alps"
+      ],
+      "answer": 2,
+      "explanation": "The Andes mountain range in South America is the longest continental mountain range in the world, stretching approximately 7,000 kilometres along the western coast of the continent."
+    },
+    {
+      "id": 406,
+      "category": "geography",
+      "difficulty": 3,
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "options": [
+        "China",
+        "South Korea",
+        "Japan",
+        "Thailand"
+      ],
+      "answer": 2,
+      "explanation": "Japan is known as the Land of the Rising Sun. The name 'Japan' is derived from the Chinese pronunciation of the characters meaning 'sun origin,' reflecting its position to the east of China."
+    },
+    {
+      "id": 407,
+      "category": "geography",
+      "difficulty": 3,
+      "question": "What is the largest island in the world?",
+      "options": [
+        "Madagascar",
+        "Borneo",
+        "Greenland",
+        "New Guinea"
+      ],
+      "answer": 2,
+      "explanation": "Greenland is the world's largest island, covering approximately 2.17 million square kilometres. Australia is larger but is classified as a continental landmass rather than an island."
+    },
+    {
+      "id": 408,
+      "category": "geography",
+      "difficulty": 3,
+      "question": "Which African country was formerly known as Abyssinia?",
+      "options": [
+        "Somalia",
+        "Ethiopia",
+        "Eritrea",
+        "Sudan"
+      ],
+      "answer": 1,
+      "explanation": "Ethiopia was historically known as Abyssinia. It is one of the oldest nations in the world and one of only two African countries never to be colonised (the other being Liberia)."
+    },
+    {
+      "id": 409,
+      "category": "geography",
+      "difficulty": 4,
+      "question": "What is the capital city of Mongolia?",
+      "options": [
+        "Astana",
+        "Ulaanbaatar",
+        "Bishkek",
+        "Tashkent"
+      ],
+      "answer": 1,
+      "explanation": "Ulaanbaatar is the capital and largest city of Mongolia, home to nearly half the country's population. It is one of the coldest capital cities in the world."
+    },
+    {
+      "id": 410,
+      "category": "geography",
+      "difficulty": 4,
+      "question": "Which strait separates Africa from Europe?",
+      "options": [
+        "Strait of Hormuz",
+        "Strait of Gibraltar",
+        "Bosporus Strait",
+        "Strait of Dover"
+      ],
+      "answer": 1,
+      "explanation": "The Strait of Gibraltar separates Africa (Morocco) from Europe (Spain), connecting the Atlantic Ocean to the Mediterranean Sea. At its narrowest point, it is only about 14 kilometres wide."
+    },
+    {
+      "id": 411,
+      "category": "geography",
+      "difficulty": 4,
+      "question": "What is the driest inhabited continent on Earth?",
+      "options": [
+        "Africa",
+        "Asia",
+        "Australia",
+        "South America"
+      ],
+      "answer": 2,
+      "explanation": "Australia is the driest inhabited continent, with an average annual rainfall of only about 470 millimetres. Much of the interior is arid desert known as the Outback."
+    },
+    {
+      "id": 412,
+      "category": "geography",
+      "difficulty": 4,
+      "question": "Which country has the most volcanoes?",
+      "options": [
+        "Japan",
+        "Indonesia",
+        "Iceland",
+        "Chile"
+      ],
+      "answer": 1,
+      "explanation": "Indonesia has the most volcanoes of any country, with approximately 130 active volcanoes. It sits on the Pacific Ring of Fire, a zone of intense tectonic activity."
+    },
+    {
+      "id": 413,
+      "category": "geography",
+      "difficulty": 5,
+      "question": "What is the Ring of Fire?",
+      "options": [
+        "A volcanic region in Iceland",
+        "A horseshoe-shaped zone of earthquakes and volcanoes around the Pacific Ocean",
+        "A desert in Australia",
+        "A mountain range in Africa"
+      ],
+      "answer": 1,
+      "explanation": "The Ring of Fire is a 40,000-kilometre horseshoe-shaped zone around the Pacific Ocean where about 75% of the world's volcanoes are found and about 90% of earthquakes occur, due to tectonic plate boundaries."
+    },
+    {
+      "id": 414,
+      "category": "geography",
+      "difficulty": 5,
+      "question": "Which country is home to the ancient city of Timbuktu?",
+      "options": [
+        "Niger",
+        "Mali",
+        "Senegal",
+        "Burkina Faso"
+      ],
+      "answer": 1,
+      "explanation": "Timbuktu is located in Mali, West Africa. It was a major centre of Islamic scholarship and trade during the 15th and 16th centuries, famous for its libraries and universities."
+    },
+    {
+      "id": 415,
+      "category": "geography",
+      "difficulty": 5,
+      "question": "What is the largest landlocked country in the world?",
+      "options": [
+        "Mongolia",
+        "Chad",
+        "Kazakhstan",
+        "Niger"
+      ],
+      "answer": 2,
+      "explanation": "Kazakhstan is the largest landlocked country in the world, covering approximately 2.7 million square kilometres in Central Asia. It is the ninth-largest country overall."
+    },
+    {
+      "id": 416,
+      "category": "geography",
+      "difficulty": 5,
+      "question": "Which river forms much of the border between the United States and Mexico?",
+      "options": [
+        "Colorado River",
+        "Rio Grande",
+        "Mississippi River",
+        "Pecos River"
+      ],
+      "answer": 1,
+      "explanation": "The Rio Grande (known as Río Bravo in Mexico) forms a large portion of the border between the United States and Mexico, stretching approximately 3,051 kilometres from Colorado to the Gulf of Mexico."
+    },
+    {
+      "id": 417,
+      "category": "geography",
+      "difficulty": 4,
+      "question": "What is the highest capital city in the world by elevation?",
+      "options": [
+        "Quito, Ecuador",
+        "Bogotá, Colombia",
+        "La Paz, Bolivia",
+        "Addis Ababa, Ethiopia"
+      ],
+      "answer": 2,
+      "explanation": "La Paz, Bolivia is the highest capital city in the world, sitting at approximately 3,640 metres (11,942 feet) above sea level in the Andes Mountains."
+    },
+    {
+      "id": 418,
+      "category": "geography",
+      "difficulty": 3,
+      "question": "Which European country is shaped like a boot?",
+      "options": [
+        "Spain",
+        "Greece",
+        "Italy",
+        "Portugal"
+      ],
+      "answer": 2,
+      "explanation": "Italy is famously shaped like a boot, with the 'toe' kicking the island of Sicily. This distinctive shape makes it one of the most recognisable countries on a map."
+    },
+    {
+      "id": 419,
+      "category": "geography",
+      "difficulty": 4,
+      "question": "What is the name of the sea located between Saudi Arabia and Africa?",
+      "options": [
+        "Caspian Sea",
+        "Arabian Sea",
+        "Red Sea",
+        "Dead Sea"
+      ],
+      "answer": 2,
+      "explanation": "The Red Sea is located between the Arabian Peninsula (including Saudi Arabia) and Africa (including Egypt, Sudan, and Eritrea). It is one of the saltiest bodies of water in the world."
+    },
+    {
+      "id": 420,
+      "category": "geography",
+      "difficulty": 5,
+      "question": "Which two countries share the longest international border?",
+      "options": [
+        "Russia and China",
+        "United States and Mexico",
+        "United States and Canada",
+        "Brazil and Argentina"
+      ],
+      "answer": 2,
+      "explanation": "The United States and Canada share the longest international border in the world, stretching approximately 8,891 kilometres (including the Alaska-Canada border)."
+    },
+    {
+      "id": 421,
+      "category": "entertainment",
+      "difficulty": 1,
+      "question": "What is the name of the main character in the 'Shrek' films?",
+      "options": [
+        "Donkey",
+        "Shrek",
+        "Fiona",
+        "Lord Farquaad"
+      ],
+      "answer": 1,
+      "explanation": "Shrek is the titular green ogre who lives in a swamp. The first film was released in 2001 by DreamWorks Animation and won the first-ever Academy Award for Best Animated Feature."
+    },
+    {
+      "id": 422,
+      "category": "entertainment",
+      "difficulty": 1,
+      "question": "Which band is known for the hit song 'Yellow Submarine'?",
+      "options": [
+        "The Rolling Stones",
+        "The Beatles",
+        "The Who",
+        "Led Zeppelin"
+      ],
+      "answer": 1,
+      "explanation": "'Yellow Submarine' was released by The Beatles in 1966, sung by Ringo Starr. It became one of the band's most recognisable songs and inspired an animated film of the same name."
+    },
+    {
+      "id": 423,
+      "category": "entertainment",
+      "difficulty": 2,
+      "question": "Who played the character of Jack Sparrow in 'Pirates of the Caribbean'?",
+      "options": [
+        "Orlando Bloom",
+        "Brad Pitt",
+        "Johnny Depp",
+        "Leonardo DiCaprio"
+      ],
+      "answer": 2,
+      "explanation": "Johnny Depp portrayed Captain Jack Sparrow in the Pirates of the Caribbean film series, beginning with 'The Curse of the Black Pearl' in 2003. The role earned him an Academy Award nomination."
+    },
+    {
+      "id": 424,
+      "category": "entertainment",
+      "difficulty": 2,
+      "question": "Which TV series features the fictional kingdoms of Westeros and Essos?",
+      "options": [
+        "The Witcher",
+        "Lord of the Rings",
+        "Game of Thrones",
+        "Vikings"
+      ],
+      "answer": 2,
+      "explanation": "Game of Thrones, based on George R.R. Martin's 'A Song of Ice and Fire' novels, aired on HBO from 2011 to 2019. The show became one of the most popular and discussed television series in history."
+    },
+    {
+      "id": 425,
+      "category": "entertainment",
+      "difficulty": 3,
+      "question": "What is the name of the fictional metal in the Marvel universe that Captain America's shield is made from?",
+      "options": [
+        "Adamantium",
+        "Vibranium",
+        "Uru",
+        "Carbonadium"
+      ],
+      "answer": 1,
+      "explanation": "Captain America's shield is made of vibranium, a fictional metal from the nation of Wakanda. Vibranium absorbs kinetic energy and vibrations, making the shield virtually indestructible."
+    },
+    {
+      "id": 426,
+      "category": "entertainment",
+      "difficulty": 3,
+      "question": "Which 1999 film popularised the concept of living in a simulated reality?",
+      "options": [
+        "The Truman Show",
+        "Dark City",
+        "The Matrix",
+        "eXistenZ"
+      ],
+      "answer": 2,
+      "explanation": "The Matrix, directed by the Wachowskis, popularised the idea that reality could be a computer simulation. The film starred Keanu Reeves and became a landmark in science fiction cinema."
+    },
+    {
+      "id": 427,
+      "category": "entertainment",
+      "difficulty": 4,
+      "question": "Which composer wrote the Four Seasons?",
+      "options": [
+        "Bach",
+        "Mozart",
+        "Beethoven",
+        "Vivaldi"
+      ],
+      "answer": 3,
+      "explanation": "Antonio Vivaldi composed 'The Four Seasons' around 1720. It is a set of four violin concertos, each depicting a different season, and is one of the most popular pieces of Baroque music."
+    },
+    {
+      "id": 428,
+      "category": "entertainment",
+      "difficulty": 4,
+      "question": "What is the name of the fictional spacecraft in the TV series 'Star Trek'?",
+      "options": [
+        "Millennium Falcon",
+        "USS Enterprise",
+        "Serenity",
+        "Battlestar Galactica"
+      ],
+      "answer": 1,
+      "explanation": "The USS Enterprise is the iconic starship in the Star Trek franchise, first appearing in the original 1966 TV series. Several different versions of the Enterprise have appeared across the franchise."
+    },
+    {
+      "id": 429,
+      "category": "entertainment",
+      "difficulty": 5,
+      "question": "Which film won the Palme d'Or at the Cannes Film Festival in 2019?",
+      "options": [
+        "Roma",
+        "1917",
+        "Parasite",
+        "Joker"
+      ],
+      "answer": 2,
+      "explanation": "'Parasite' directed by Bong Joon-ho won the Palme d'Or in 2019. It went on to win four Academy Awards including Best Picture, becoming the first non-English-language film to do so."
+    },
+    {
+      "id": 430,
+      "category": "entertainment",
+      "difficulty": 5,
+      "question": "Who was the first African American to win an Academy Award for Best Actor?",
+      "options": [
+        "Denzel Washington",
+        "Sidney Poitier",
+        "Morgan Freeman",
+        "Jamie Foxx"
+      ],
+      "answer": 1,
+      "explanation": "Sidney Poitier won the Academy Award for Best Actor in 1964 for his role in 'Lilies of the Field,' becoming the first African American to receive this honour."
+    },
+    {
+      "id": 431,
+      "category": "entertainment",
+      "difficulty": 5,
+      "question": "What is the name of the musical technique where two or more melodic lines are played simultaneously?",
+      "options": [
+        "Harmony",
+        "Counterpoint",
+        "Pedal point",
+        "Vibrato"
+      ],
+      "answer": 1,
+      "explanation": "Counterpoint is a compositional technique where two or more melodic lines are played simultaneously. It was a fundamental technique in Baroque music, perfected by composers like J.S. Bach."
+    },
+    {
+      "id": 432,
+      "category": "entertainment",
+      "difficulty": 5,
+      "question": "Which silent film actor was known as 'The Great Stone Face'?",
+      "options": [
+        "Harold Lloyd",
+        "Charlie Chaplin",
+        "Buster Keaton",
+        "Roscoe Arbuckle"
+      ],
+      "answer": 2,
+      "explanation": "Buster Keaton was nicknamed 'The Great Stone Face' for his trademark deadpan expression during physical comedy. He is regarded as one of the greatest filmmakers and comedians of the silent film era."
+    },
+    {
+      "id": 433,
+      "category": "entertainment",
+      "difficulty": 5,
+      "question": "What was the first feature-length animated film ever released?",
+      "options": [
+        "Snow White and the Seven Dwarfs",
+        "Fantasia",
+        "Bambi",
+        "El Apóstol"
+      ],
+      "answer": 3,
+      "explanation": "'El Apóstol' (The Apostle), an Argentine political satire, was the first feature-length animated film, released in 1917. However, no copies survive. 'Snow White' (1937) was the first full-length cel-animated feature in motion picture history."
+    },
+    {
+      "id": 434,
+      "category": "entertainment",
+      "difficulty": 3,
+      "question": "In which decade was the first 'Star Wars' film released?",
+      "options": [
+        "1960s",
+        "1970s",
+        "1980s",
+        "1990s"
+      ],
+      "answer": 1,
+      "explanation": "The original Star Wars film (later subtitled 'A New Hope') was released in 1977. Directed by George Lucas, it became a cultural phenomenon and spawned one of the most successful film franchises in history."
+    },
+    {
+      "id": 435,
+      "category": "entertainment",
+      "difficulty": 2,
+      "question": "Which superhero is also known as 'The Man of Steel'?",
+      "options": [
+        "Batman",
+        "Iron Man",
+        "Superman",
+        "Thor"
+      ],
+      "answer": 2,
+      "explanation": "Superman is known as 'The Man of Steel' due to his near-invulnerability. Created by Jerry Siegel and Joe Shuster, he first appeared in Action Comics #1 in 1938."
+    },
+    {
+      "id": 436,
+      "category": "entertainment",
+      "difficulty": 4,
+      "question": "Which Pixar film was the first to be entirely computer-animated?",
+      "options": [
+        "A Bug's Life",
+        "Toy Story",
+        "Finding Nemo",
+        "Monsters, Inc."
+      ],
+      "answer": 1,
+      "explanation": "Toy Story (1995) was the first entirely computer-animated feature film, produced by Pixar Animation Studios and released by Walt Disney Pictures. It revolutionised animation filmmaking."
+    },
+    {
+      "id": 437,
+      "category": "entertainment",
+      "difficulty": 3,
+      "question": "What is the highest-grossing animated film of all time?",
+      "options": [
+        "Frozen II",
+        "The Lion King (2019)",
+        "Toy Story 4",
+        "Inside Out 2"
+      ],
+      "answer": 3,
+      "explanation": "Inside Out 2 (2024) became the highest-grossing animated film of all time, surpassing Frozen II at the global box office."
+    },
+    {
+      "id": 438,
+      "category": "entertainment",
+      "difficulty": 2,
+      "question": "Which British band released the album 'A Night at the Opera'?",
+      "options": [
+        "The Beatles",
+        "Led Zeppelin",
+        "Queen",
+        "Pink Floyd"
+      ],
+      "answer": 2,
+      "explanation": "Queen released 'A Night at the Opera' in 1975. It features 'Bohemian Rhapsody,' one of the most iconic rock songs ever recorded."
+    },
+    {
+      "id": 439,
+      "category": "entertainment",
+      "difficulty": 4,
+      "question": "Who directed the 1960 horror film 'Psycho'?",
+      "options": [
+        "Alfred Hitchcock",
+        "Stanley Kubrick",
+        "Roman Polanski",
+        "Billy Wilder"
+      ],
+      "answer": 0,
+      "explanation": "Alfred Hitchcock directed 'Psycho' (1960), which is considered one of the greatest and most influential horror films ever made. Its famous shower scene is one of the most iconic moments in cinema history."
+    },
+    {
+      "id": 440,
+      "category": "entertainment",
+      "difficulty": 1,
+      "question": "Which animated film features a clownfish searching for his son?",
+      "options": [
+        "Shark Tale",
+        "The Little Mermaid",
+        "Finding Nemo",
+        "Moana"
+      ],
+      "answer": 2,
+      "explanation": "Finding Nemo (2003) follows Marlin, a clownfish, as he searches for his son Nemo who has been captured by a diver. The Pixar film won the Academy Award for Best Animated Feature."
+    },
+    {
+      "id": 441,
+      "category": "sports",
+      "difficulty": 1,
+      "question": "In which sport do players use rackets to hit a shuttlecock?",
+      "options": [
+        "Tennis",
+        "Squash",
+        "Badminton",
+        "Table Tennis"
+      ],
+      "answer": 2,
+      "explanation": "Badminton is a racket sport where players hit a feathered shuttlecock back and forth over a net. It is one of the fastest racket sports, with shuttlecocks reaching speeds over 400 km/h."
+    },
+    {
+      "id": 442,
+      "category": "sports",
+      "difficulty": 1,
+      "question": "How many players are on a standard basketball team on the court?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "A standard basketball team has 5 players on the court at any time. Each team can have additional players on the bench for substitutions."
+    },
+    {
+      "id": 443,
+      "category": "sports",
+      "difficulty": 2,
+      "question": "Which country invented the sport of cricket?",
+      "options": [
+        "Australia",
+        "India",
+        "South Africa",
+        "England"
+      ],
+      "answer": 3,
+      "explanation": "Cricket originated in England, with the earliest definite reference dating back to the late 16th century. It became England's national sport in the 18th century and spread to the British colonies."
+    },
+    {
+      "id": 444,
+      "category": "sports",
+      "difficulty": 2,
+      "question": "In which sport is the Stanley Cup awarded?",
+      "options": [
+        "Baseball",
+        "Basketball",
+        "Ice Hockey",
+        "American Football"
+      ],
+      "answer": 2,
+      "explanation": "The Stanley Cup is awarded annually to the National Hockey League (NHL) playoff champion. It is the oldest existing trophy to be awarded to a professional sports franchise in North America."
+    },
+    {
+      "id": 445,
+      "category": "sports",
+      "difficulty": 3,
+      "question": "What is the distance of a marathon in miles (approximately)?",
+      "options": [
+        "20.2 miles",
+        "24.2 miles",
+        "26.2 miles",
+        "28.2 miles"
+      ],
+      "answer": 2,
+      "explanation": "A marathon is 26.2 miles (42.195 kilometres). The distance was standardised at the 1908 London Olympics to cover the route from Windsor Castle to the Olympic Stadium."
+    },
+    {
+      "id": 446,
+      "category": "sports",
+      "difficulty": 3,
+      "question": "Which country has won the most Olympic gold medals in history?",
+      "options": [
+        "China",
+        "Russia",
+        "United Kingdom",
+        "United States"
+      ],
+      "answer": 3,
+      "explanation": "The United States has won the most Olympic gold medals in history across both Summer and Winter Games combined. Athletics and swimming have been particularly strong events for American athletes."
+    },
+    {
+      "id": 447,
+      "category": "sports",
+      "difficulty": 4,
+      "question": "In rugby union, what is a 'conversion' worth?",
+      "options": [
+        "1 point",
+        "2 points",
+        "3 points",
+        "5 points"
+      ],
+      "answer": 1,
+      "explanation": "A conversion in rugby union is worth 2 points. It is a kick at goal taken after a try is scored, from a position in line with where the try was touched down."
+    },
+    {
+      "id": 448,
+      "category": "sports",
+      "difficulty": 4,
+      "question": "What is the 'offside rule' in football (soccer)?",
+      "options": [
+        "A player cannot be in the opposing half",
+        "A player cannot be behind the last defender when the ball is played to them",
+        "A player cannot touch the ball twice in a row",
+        "A player must stay within 10 metres of the ball"
+      ],
+      "answer": 1,
+      "explanation": "In football, a player is offside if they are nearer to the opponent's goal line than both the ball and the second-to-last opponent when the ball is played to them, and are actively involved in play."
+    },
+    {
+      "id": 449,
+      "category": "sports",
+      "difficulty": 5,
+      "question": "What is the 'Duckworth-Lewis-Stern' method in cricket?",
+      "options": [
+        "A bowling technique",
+        "A method for calculating target scores in rain-affected matches",
+        "A fielding formation",
+        "A batting strategy"
+      ],
+      "answer": 1,
+      "explanation": "The Duckworth-Lewis-Stern (DLS) method is a mathematical formula used to calculate revised target scores in limited-overs cricket matches that are interrupted by rain or other delays."
+    },
+    {
+      "id": 450,
+      "category": "sports",
+      "difficulty": 5,
+      "question": "In which year were women first allowed to compete in the Olympic Games?",
+      "options": [
+        "1896",
+        "1900",
+        "1908",
+        "1920"
+      ],
+      "answer": 1,
+      "explanation": "Women first competed in the Olympic Games at the 1900 Paris Olympics, in events including tennis, sailing, croquet, equestrian, and golf. Only 22 women competed among 997 athletes."
+    },
+    {
+      "id": 451,
+      "category": "sports",
+      "difficulty": 5,
+      "question": "What is 'tiki-taka' in football?",
+      "options": [
+        "A defensive formation",
+        "A short-passing possession-based style of play",
+        "A type of free kick",
+        "A dribbling technique"
+      ],
+      "answer": 1,
+      "explanation": "Tiki-taka is a style of play characterised by short passing, movement, and maintaining possession. It was perfected by FC Barcelona under Pep Guardiola and the Spanish national team that won the 2010 World Cup."
+    },
+    {
+      "id": 452,
+      "category": "sports",
+      "difficulty": 5,
+      "question": "What is the oldest tennis tournament in the world?",
+      "options": [
+        "US Open",
+        "Australian Open",
+        "French Open",
+        "Wimbledon"
+      ],
+      "answer": 3,
+      "explanation": "Wimbledon is the oldest tennis tournament in the world, first held in 1877 at the All England Club in London. It is the only Grand Slam still played on grass, the original tennis surface."
+    },
+    {
+      "id": 453,
+      "category": "sports",
+      "difficulty": 5,
+      "question": "In boxing, what does a 'TKO' stand for?",
+      "options": [
+        "Total Knockout",
+        "Technical Knockout",
+        "Timed Knockout",
+        "Tactical Knockout"
+      ],
+      "answer": 1,
+      "explanation": "TKO stands for Technical Knockout. It occurs when the referee stops the fight because a boxer is unable to safely continue, even though they have not been knocked down for a full count."
+    },
+    {
+      "id": 454,
+      "category": "sports",
+      "difficulty": 3,
+      "question": "What is the national sport of Canada?",
+      "options": [
+        "Ice Hockey",
+        "Baseball",
+        "Lacrosse",
+        "Curling"
+      ],
+      "answer": 2,
+      "explanation": "Lacrosse is Canada's official national summer sport (declared in 1994), while ice hockey is the national winter sport. Lacrosse has indigenous origins and has been played in North America for centuries."
+    },
+    {
+      "id": 455,
+      "category": "sports",
+      "difficulty": 4,
+      "question": "How long is a standard Olympic athletics track?",
+      "options": [
+        "200 metres",
+        "300 metres",
+        "400 metres",
+        "500 metres"
+      ],
+      "answer": 2,
+      "explanation": "A standard Olympic athletics track is 400 metres around. It is oval-shaped with two straight sections and two curved sections, with lanes typically 1.22 metres wide."
+    },
+    {
+      "id": 456,
+      "category": "sports",
+      "difficulty": 2,
+      "question": "Which country is famous for the 'All Blacks' rugby team?",
+      "options": [
+        "South Africa",
+        "Australia",
+        "England",
+        "New Zealand"
+      ],
+      "answer": 3,
+      "explanation": "The All Blacks are the national rugby union team of New Zealand. They are known for performing the haka, a traditional Māori war dance, before matches and are one of the most successful sports teams in history."
+    },
+    {
+      "id": 457,
+      "category": "sports",
+      "difficulty": 3,
+      "question": "In which sport would you perform an 'alley-oop'?",
+      "options": [
+        "Volleyball",
+        "Basketball",
+        "Handball",
+        "Netball"
+      ],
+      "answer": 1,
+      "explanation": "An alley-oop is a basketball play where one player throws the ball near the basket and a teammate jumps up to catch it and score in mid-air, typically with a dunk."
+    },
+    {
+      "id": 458,
+      "category": "sports",
+      "difficulty": 1,
+      "question": "What colour card is shown to a player being sent off in football (soccer)?",
+      "options": [
+        "Yellow",
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "answer": 2,
+      "explanation": "A red card in football means a player is sent off the pitch and cannot be replaced, leaving their team with one fewer player. It is given for serious foul play, violent conduct, or accumulating two yellow cards."
+    },
+    {
+      "id": 459,
+      "category": "sports",
+      "difficulty": 4,
+      "question": "What is the 'triple crown' in horse racing?",
+      "options": [
+        "Winning three races in a single day",
+        "Winning three specific prestigious races in a season",
+        "Winning three championships in a row",
+        "Winning races on three different continents"
+      ],
+      "answer": 1,
+      "explanation": "The Triple Crown in horse racing refers to winning three specific prestigious races in a single season. In the US, these are the Kentucky Derby, Preakness Stakes, and Belmont Stakes."
+    },
+    {
+      "id": 460,
+      "category": "sports",
+      "difficulty": 5,
+      "question": "What is the 'Cruyff Turn' in football?",
+      "options": [
+        "A type of goal celebration",
+        "A deceptive dribbling move involving a fake pass behind the standing leg",
+        "A defensive tackle",
+        "A goalkeeping save technique"
+      ],
+      "answer": 1,
+      "explanation": "The Cruyff Turn is a dribbling move invented by Dutch footballer Johan Cruyff during the 1974 World Cup. The player fakes a pass or cross, then drags the ball behind their standing leg and turns 180 degrees."
+    },
+    {
+      "id": 461,
+      "category": "technology",
+      "difficulty": 1,
+      "question": "What does 'Wi-Fi' allow devices to do?",
+      "options": [
+        "Charge wirelessly",
+        "Connect to the internet wirelessly",
+        "Make phone calls",
+        "Send text messages"
+      ],
+      "answer": 1,
+      "explanation": "Wi-Fi is a wireless networking technology that allows devices to connect to the internet and communicate with each other without physical cables, using radio waves."
+    },
+    {
+      "id": 462,
+      "category": "technology",
+      "difficulty": 1,
+      "question": "What is the name of the virtual assistant developed by Amazon?",
+      "options": [
+        "Siri",
+        "Cortana",
+        "Alexa",
+        "Google Assistant"
+      ],
+      "answer": 2,
+      "explanation": "Alexa is Amazon's cloud-based voice assistant, primarily used through Amazon Echo smart speakers. It can play music, answer questions, control smart home devices, and much more."
+    },
+    {
+      "id": 463,
+      "category": "technology",
+      "difficulty": 2,
+      "question": "What does 'SSD' stand for in computing?",
+      "options": [
+        "Super Speed Drive",
+        "Solid State Drive",
+        "System Storage Device",
+        "Serial Signal Data"
+      ],
+      "answer": 1,
+      "explanation": "SSD stands for Solid State Drive. Unlike traditional hard drives (HDDs), SSDs have no moving parts and use flash memory, making them faster, quieter, and more durable."
+    },
+    {
+      "id": 464,
+      "category": "technology",
+      "difficulty": 2,
+      "question": "Which company developed the Windows operating system?",
+      "options": [
+        "Apple",
+        "Google",
+        "IBM",
+        "Microsoft"
+      ],
+      "answer": 3,
+      "explanation": "Microsoft developed the Windows operating system, first released in 1985 as a graphical interface for MS-DOS. It has become the most widely used desktop operating system in the world."
+    },
+    {
+      "id": 465,
+      "category": "technology",
+      "difficulty": 3,
+      "question": "What is 'phishing' in cybersecurity?",
+      "options": [
+        "A type of firewall",
+        "A fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity",
+        "A method of encrypting data",
+        "A network scanning tool"
+      ],
+      "answer": 1,
+      "explanation": "Phishing is a type of cyber attack where attackers send deceptive messages (often emails) that appear to come from legitimate sources, tricking recipients into revealing passwords, credit card numbers, or other sensitive information."
+    },
+    {
+      "id": 466,
+      "category": "technology",
+      "difficulty": 3,
+      "question": "What does 'IoT' stand for?",
+      "options": [
+        "Internet of Things",
+        "Integration of Technology",
+        "Internal Operating Terminal",
+        "Intelligent Output Transfer"
+      ],
+      "answer": 0,
+      "explanation": "IoT stands for Internet of Things, referring to the network of physical devices (smart home appliances, wearables, sensors, etc.) connected to the internet that can collect and share data."
+    },
+    {
+      "id": 467,
+      "category": "technology",
+      "difficulty": 3,
+      "question": "What is 'cloud computing'?",
+      "options": [
+        "Computing done in high-altitude locations",
+        "Storing and accessing data and programs over the internet",
+        "A type of weather simulation",
+        "Computing using quantum mechanics"
+      ],
+      "answer": 1,
+      "explanation": "Cloud computing is the delivery of computing services — including storage, processing, and software — over the internet ('the cloud') rather than on local hardware, allowing for scalability and remote access."
+    },
+    {
+      "id": 468,
+      "category": "technology",
+      "difficulty": 3,
+      "question": "What is the difference between HTTP and HTTPS?",
+      "options": [
+        "Speed of connection",
+        "HTTPS includes encryption for security",
+        "File size limits",
+        "Browser compatibility"
+      ],
+      "answer": 1,
+      "explanation": "HTTPS (HyperText Transfer Protocol Secure) adds SSL/TLS encryption to HTTP, ensuring that data transmitted between the browser and server is encrypted and secure from eavesdropping or tampering."
+    },
+    {
+      "id": 469,
+      "category": "technology",
+      "difficulty": 4,
+      "question": "What is a 'container' in software development?",
+      "options": [
+        "A type of database",
+        "A lightweight, standalone package that includes everything needed to run software",
+        "A security firewall",
+        "A type of programming language"
+      ],
+      "answer": 1,
+      "explanation": "A container is a lightweight, portable unit that packages an application and all its dependencies together, ensuring it runs consistently across different computing environments. Docker is the most popular containerisation platform."
+    },
+    {
+      "id": 470,
+      "category": "technology",
+      "difficulty": 4,
+      "question": "What is 'two-factor authentication' (2FA)?",
+      "options": [
+        "Logging in from two devices",
+        "A security method requiring two forms of identification",
+        "Using two passwords",
+        "Having two user accounts"
+      ],
+      "answer": 1,
+      "explanation": "Two-factor authentication (2FA) adds an extra layer of security by requiring two different forms of verification: something you know (like a password) and something you have (like a phone) or something you are (like a fingerprint)."
+    },
+    {
+      "id": 471,
+      "category": "technology",
+      "difficulty": 5,
+      "question": "What is a 'zero-day vulnerability'?",
+      "options": [
+        "A bug that has been fixed for zero days",
+        "A software flaw unknown to the vendor that can be exploited by attackers",
+        "A virus that activates at midnight",
+        "A server with zero uptime"
+      ],
+      "answer": 1,
+      "explanation": "A zero-day vulnerability is a software security flaw that is unknown to the vendor or has no available patch. The term 'zero-day' means the developer has had zero days to fix the issue, leaving systems exposed to potential exploitation."
+    },
+    {
+      "id": 472,
+      "category": "technology",
+      "difficulty": 5,
+      "question": "What is quantum computing's main advantage over classical computing?",
+      "options": [
+        "It uses less electricity",
+        "It can solve certain problems exponentially faster using quantum mechanical phenomena",
+        "It has better graphics",
+        "It requires no software"
+      ],
+      "answer": 1,
+      "explanation": "Quantum computers use quantum bits (qubits) that can exist in multiple states simultaneously (superposition) and can be entangled, allowing them to solve certain complex problems exponentially faster than classical computers."
+    },
+    {
+      "id": 473,
+      "category": "technology",
+      "difficulty": 5,
+      "question": "What is 'machine learning' as distinct from traditional programming?",
+      "options": [
+        "Programming that runs on machines",
+        "Systems that learn patterns from data rather than following explicit rules",
+        "Automated code writing",
+        "Hardware-level programming"
+      ],
+      "answer": 1,
+      "explanation": "In traditional programming, a developer writes explicit rules. In machine learning, algorithms learn patterns from data to make predictions or decisions without being explicitly programmed for each scenario. This is a subset of artificial intelligence."
+    },
+    {
+      "id": 474,
+      "category": "technology",
+      "difficulty": 5,
+      "question": "What is the CAP theorem in distributed systems?",
+      "options": [
+        "A theorem about computer aided processing",
+        "A theorem stating a distributed system cannot simultaneously guarantee consistency, availability, and partition tolerance",
+        "A theorem about computer access protocols",
+        "A theorem about central authentication procedures"
+      ],
+      "answer": 1,
+      "explanation": "The CAP theorem (Brewer's theorem) states that a distributed data system can only guarantee two of three properties simultaneously: Consistency (all nodes see the same data), Availability (every request gets a response), and Partition tolerance (system operates despite network failures)."
+    },
+    {
+      "id": 475,
+      "category": "technology",
+      "difficulty": 3,
+      "question": "What is 'open source' software?",
+      "options": [
+        "Software that is always free",
+        "Software whose source code is publicly available for anyone to inspect, modify, and distribute",
+        "Software that only works online",
+        "Software with no licence"
+      ],
+      "answer": 1,
+      "explanation": "Open source software has its source code publicly available under a licence that allows users to study, modify, and distribute it. Examples include Linux, Firefox, and Python. It fosters collaboration and transparency."
+    },
+    {
+      "id": 476,
+      "category": "technology",
+      "difficulty": 3,
+      "question": "What does 'URL' stand for?",
+      "options": [
+        "Universal Resource Locator",
+        "Uniform Resource Locator",
+        "United Reference Link",
+        "Universal Reference Locator"
+      ],
+      "answer": 1,
+      "explanation": "URL stands for Uniform Resource Locator. It is the address used to access resources on the internet, such as web pages. A typical URL includes the protocol (https://), domain name, and path."
+    },
+    {
+      "id": 477,
+      "category": "technology",
+      "difficulty": 4,
+      "question": "What is 'DNS' and what does it do?",
+      "options": [
+        "Digital Network Service — provides internet speed",
+        "Domain Name System — translates domain names to IP addresses",
+        "Data Node Selector — routes network traffic",
+        "Dynamic Network Security — protects against attacks"
+      ],
+      "answer": 1,
+      "explanation": "The Domain Name System (DNS) translates human-readable domain names (like www.example.com) into numerical IP addresses (like 192.0.2.1) that computers use to communicate. It is often called the 'phone book of the internet.'"
+    },
+    {
+      "id": 478,
+      "category": "technology",
+      "difficulty": 1,
+      "question": "What does 'Bluetooth' technology allow devices to do?",
+      "options": [
+        "Connect to the internet",
+        "Communicate wirelessly over short distances",
+        "Charge other devices",
+        "Display in colour"
+      ],
+      "answer": 1,
+      "explanation": "Bluetooth is a wireless technology standard for exchanging data over short distances using radio waves. It is commonly used for connecting headphones, speakers, keyboards, and other peripherals to devices."
+    },
+    {
+      "id": 479,
+      "category": "technology",
+      "difficulty": 5,
+      "question": "What is 'Big O notation' used for in computer science?",
+      "options": [
+        "Measuring file sizes",
+        "Describing the performance or complexity of an algorithm",
+        "Rating software quality",
+        "Counting lines of code"
+      ],
+      "answer": 1,
+      "explanation": "Big O notation is a mathematical notation used to describe the upper bound of an algorithm's time or space complexity as the input size grows. For example, O(n) means the time grows linearly with input size, while O(n²) means it grows quadratically."
+    },
+    {
+      "id": 480,
+      "category": "technology",
+      "difficulty": 2,
+      "question": "What is the purpose of a 'firewall' in computing?",
+      "options": [
+        "To cool down the computer",
+        "To monitor and control network traffic based on security rules",
+        "To speed up the internet",
+        "To store backup files"
+      ],
+      "answer": 1,
+      "explanation": "A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It establishes a barrier between a trusted internal network and untrusted external networks."
+    },
+    {
+      "id": 481,
+      "category": "literature",
+      "difficulty": 1,
+      "question": "Who wrote 'Charlie and the Chocolate Factory'?",
+      "options": [
+        "J.K. Rowling",
+        "Roald Dahl",
+        "Enid Blyton",
+        "Dr. Seuss"
+      ],
+      "answer": 1,
+      "explanation": "Roald Dahl wrote 'Charlie and the Chocolate Factory' in 1964. The story follows Charlie Bucket's visit to Willy Wonka's magical chocolate factory and has been adapted into two feature films."
+    },
+    {
+      "id": 482,
+      "category": "literature",
+      "difficulty": 1,
+      "question": "What is the name of the boy who never grows up in J.M. Barrie's story?",
+      "options": [
+        "Pinocchio",
+        "Jack",
+        "Peter Pan",
+        "Oliver"
+      ],
+      "answer": 2,
+      "explanation": "Peter Pan is the boy who never grows up, created by Scottish novelist J.M. Barrie. He first appeared in the 1904 play 'Peter Pan, or The Boy Who Wouldn't Grow Up' and lives in Neverland."
+    },
+    {
+      "id": 483,
+      "category": "literature",
+      "difficulty": 2,
+      "question": "Which novel by Harper Lee features the character Scout Finch?",
+      "options": [
+        "The Catcher in the Rye",
+        "To Kill a Mockingbird",
+        "Little Women",
+        "The Color Purple"
+      ],
+      "answer": 1,
+      "explanation": "Scout Finch is the narrator of 'To Kill a Mockingbird' (1960) by Harper Lee. The novel explores themes of racial injustice in the American South through the eyes of the young protagonist."
+    },
+    {
+      "id": 484,
+      "category": "literature",
+      "difficulty": 2,
+      "question": "Who wrote 'The Chronicles of Narnia'?",
+      "options": [
+        "J.R.R. Tolkien",
+        "Roald Dahl",
+        "C.S. Lewis",
+        "Philip Pullman"
+      ],
+      "answer": 2,
+      "explanation": "C.S. Lewis wrote The Chronicles of Narnia, a series of seven fantasy novels. 'The Lion, the Witch and the Wardrobe' (1950) is the most famous book in the series."
+    },
+    {
+      "id": 485,
+      "category": "literature",
+      "difficulty": 3,
+      "question": "Which dystopian novel by Ray Bradbury depicts a future where books are banned and burned?",
+      "options": [
+        "1984",
+        "Brave New World",
+        "Fahrenheit 451",
+        "The Handmaid's Tale"
+      ],
+      "answer": 2,
+      "explanation": "'Fahrenheit 451' (1953) by Ray Bradbury is set in a future American society where books are outlawed and 'firemen' burn any that are found. The title refers to the temperature at which paper supposedly ignites."
+    },
+    {
+      "id": 486,
+      "category": "literature",
+      "difficulty": 3,
+      "question": "Who wrote 'The Catcher in the Rye'?",
+      "options": [
+        "F. Scott Fitzgerald",
+        "Ernest Hemingway",
+        "J.D. Salinger",
+        "John Steinbeck"
+      ],
+      "answer": 2,
+      "explanation": "J.D. Salinger wrote 'The Catcher in the Rye' (1951), narrated by the cynical teenager Holden Caulfield. It became one of the most widely read and debated novels of the 20th century."
+    },
+    {
+      "id": 487,
+      "category": "literature",
+      "difficulty": 4,
+      "question": "Which Russian author wrote 'Crime and Punishment'?",
+      "options": [
+        "Leo Tolstoy",
+        "Anton Chekhov",
+        "Fyodor Dostoevsky",
+        "Ivan Turgenev"
+      ],
+      "answer": 2,
+      "explanation": "Fyodor Dostoevsky wrote 'Crime and Punishment' (1866), a psychological novel following Raskolnikov, a destitute former student who plans and carries out the murder of a pawnbroker. It explores themes of morality, guilt, and redemption."
+    },
+    {
+      "id": 488,
+      "category": "literature",
+      "difficulty": 4,
+      "question": "What is 'stream of consciousness' in literature?",
+      "options": [
+        "A type of poetry",
+        "A narrative technique that presents a character's continuous flow of thoughts",
+        "A genre of science fiction",
+        "A form of dialogue"
+      ],
+      "answer": 1,
+      "explanation": "Stream of consciousness is a narrative technique that attempts to depict the multitudinous thoughts and feelings passing through a character's mind. James Joyce, Virginia Woolf, and William Faulkner are known for using this technique."
+    },
+    {
+      "id": 489,
+      "category": "literature",
+      "difficulty": 4,
+      "question": "Who wrote 'Slaughterhouse-Five'?",
+      "options": [
+        "Joseph Heller",
+        "Kurt Vonnegut",
+        "Ray Bradbury",
+        "Philip K. Dick"
+      ],
+      "answer": 1,
+      "explanation": "Kurt Vonnegut wrote 'Slaughterhouse-Five' (1969), a semi-autobiographical anti-war novel based partly on his experience as a prisoner of war in Dresden during the Allied firebombing in World War II."
+    },
+    {
+      "id": 490,
+      "category": "literature",
+      "difficulty": 4,
+      "question": "Which ancient Greek work is considered the first great work of Western literature?",
+      "options": [
+        "The Republic",
+        "The Odyssey",
+        "The Iliad",
+        "Oedipus Rex"
+      ],
+      "answer": 2,
+      "explanation": "Homer's 'The Iliad,' an epic poem set during the Trojan War, is widely considered the first great work of Western literature. It was composed around the 8th century BC and tells of the wrath of Achilles."
+    },
+    {
+      "id": 491,
+      "category": "literature",
+      "difficulty": 5,
+      "question": "What literary device is used when the audience knows something the characters do not?",
+      "options": [
+        "Foreshadowing",
+        "Dramatic irony",
+        "Allegory",
+        "Hyperbole"
+      ],
+      "answer": 1,
+      "explanation": "Dramatic irony occurs when the audience or reader knows something that the characters in the story do not. Shakespeare frequently used this device, such as in 'Romeo and Juliet' when the audience knows Juliet is alive but Romeo does not."
+    },
+    {
+      "id": 492,
+      "category": "literature",
+      "difficulty": 5,
+      "question": "Who wrote 'Beloved,' a novel about the legacy of slavery?",
+      "options": [
+        "Maya Angelou",
+        "Alice Walker",
+        "Toni Morrison",
+        "Zora Neale Hurston"
+      ],
+      "answer": 2,
+      "explanation": "Toni Morrison wrote 'Beloved' (1987), inspired by the true story of Margaret Garner, an escaped enslaved woman. The novel won the Pulitzer Prize for Fiction in 1988 and is considered one of the greatest American novels."
+    },
+    {
+      "id": 493,
+      "category": "literature",
+      "difficulty": 5,
+      "question": "What is the literary term for a long narrative poem that tells the story of a hero's adventures?",
+      "options": [
+        "Sonnet",
+        "Epic",
+        "Ballad",
+        "Ode"
+      ],
+      "answer": 1,
+      "explanation": "An epic is a long narrative poem that tells the story of a hero's extraordinary deeds and adventures, often of cultural or national significance. Famous examples include Homer's 'The Iliad' and 'The Odyssey,' Virgil's 'The Aeneid,' and Milton's 'Paradise Lost.'"
+    },
+    {
+      "id": 494,
+      "category": "literature",
+      "difficulty": 5,
+      "question": "Which Japanese author wrote 'Norwegian Wood' and 'Kafka on the Shore'?",
+      "options": [
+        "Yukio Mishima",
+        "Haruki Murakami",
+        "Kazuo Ishiguro",
+        "Kenzaburo Oe"
+      ],
+      "answer": 1,
+      "explanation": "Haruki Murakami is one of the most widely read Japanese authors internationally. 'Norwegian Wood' (1987) and 'Kafka on the Shore' (2002) blend realism with surreal elements in his distinctive style."
+    },
+    {
+      "id": 495,
+      "category": "literature",
+      "difficulty": 4,
+      "question": "What is the term for a story within a story?",
+      "options": [
+        "Subplot",
+        "Frame narrative",
+        "Flashback",
+        "Aside"
+      ],
+      "answer": 1,
+      "explanation": "A frame narrative (or frame story) is a literary technique where a main story is used to organise or connect a series of shorter stories. Examples include 'The Canterbury Tales' by Chaucer and 'One Thousand and One Nights.'"
+    },
+    {
+      "id": 496,
+      "category": "literature",
+      "difficulty": 3,
+      "question": "Which author wrote 'The Old Man and the Sea'?",
+      "options": [
+        "Mark Twain",
+        "Ernest Hemingway",
+        "John Steinbeck",
+        "William Faulkner"
+      ],
+      "answer": 1,
+      "explanation": "Ernest Hemingway wrote 'The Old Man and the Sea' (1952), a novella about an aging Cuban fisherman's epic struggle with a giant marlin. It won the Pulitzer Prize in 1953 and contributed to Hemingway winning the Nobel Prize in Literature in 1954."
+    },
+    {
+      "id": 497,
+      "category": "literature",
+      "difficulty": 2,
+      "question": "In which language was 'The Diary of Anne Frank' originally written?",
+      "options": [
+        "German",
+        "English",
+        "Dutch",
+        "French"
+      ],
+      "answer": 2,
+      "explanation": "Anne Frank wrote her diary in Dutch while hiding from the Nazis in Amsterdam during World War II. The diary was first published in 1947 and has since been translated into over 70 languages."
+    },
+    {
+      "id": 498,
+      "category": "literature",
+      "difficulty": 4,
+      "question": "Who wrote 'Invisible Man' (1952), a novel about African American identity?",
+      "options": [
+        "H.G. Wells",
+        "Ralph Ellison",
+        "James Baldwin",
+        "Richard Wright"
+      ],
+      "answer": 1,
+      "explanation": "Ralph Ellison wrote 'Invisible Man' (1952), exploring the social and intellectual issues facing African Americans in the early 20th century through the eyes of an unnamed narrator. It won the National Book Award in 1953."
+    },
+    {
+      "id": 500,
+      "category": "literature",
+      "difficulty": 5,
+      "question": "What is 'magical realism' as a literary genre?",
+      "options": [
+        "Fantasy novels with realistic settings",
+        "A genre where magical elements are presented as normal within a realistic setting",
+        "Science fiction with magical elements",
+        "Horror fiction with realistic characters"
+      ],
+      "answer": 1,
+      "explanation": "Magical realism is a literary genre where magical or supernatural elements are woven into an otherwise realistic narrative as though they are normal. Gabriel García Márquez's 'One Hundred Years of Solitude' is a defining example of the genre."
+    },
+    {
+      "id": 501,
+      "category": "general",
+      "difficulty": 1,
+      "question": "How many continents are there on Earth?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "There are 7 continents: Africa, Antarctica, Asia, Australia/Oceania, Europe, North America, and South America."
+    },
+    {
+      "id": 502,
+      "category": "general",
+      "difficulty": 1,
+      "question": "What is the largest mammal in the world?",
+      "options": [
+        "African Elephant",
+        "Giraffe",
+        "Blue Whale",
+        "Hippopotamus"
+      ],
+      "answer": 2,
+      "explanation": "The blue whale is the largest mammal — and the largest animal ever known to have existed. Adults can reach lengths of over 30 metres and weigh up to 200 tonnes."
+    },
+    {
+      "id": 503,
+      "category": "general",
+      "difficulty": 2,
+      "question": "What is the most common blood type in humans?",
+      "options": [
+        "A+",
+        "B+",
+        "O+",
+        "AB+"
+      ],
+      "answer": 2,
+      "explanation": "O positive (O+) is the most common blood type globally, found in about 37-39% of the population. It is also the most commonly needed blood type for transfusions."
+    },
+    {
+      "id": 504,
+      "category": "general",
+      "difficulty": 2,
+      "question": "How many keys does a standard piano have?",
+      "options": [
+        "76",
+        "82",
+        "88",
+        "92"
+      ],
+      "answer": 2,
+      "explanation": "A standard full-size piano has 88 keys: 52 white keys and 36 black keys, covering a range of just over 7 octaves."
+    },
+    {
+      "id": 505,
+      "category": "general",
+      "difficulty": 3,
+      "question": "What is the speed of sound in air at sea level (approximately)?",
+      "options": [
+        "250 m/s",
+        "343 m/s",
+        "500 m/s",
+        "700 m/s"
+      ],
+      "answer": 1,
+      "explanation": "The speed of sound in air at sea level and 20°C is approximately 343 metres per second (about 1,235 km/h). It varies with temperature, humidity, and altitude."
+    },
+    {
+      "id": 506,
+      "category": "general",
+      "difficulty": 3,
+      "question": "What does 'AM' and 'PM' stand for in timekeeping?",
+      "options": [
+        "After Midnight and Past Midday",
+        "Ante Meridiem and Post Meridiem",
+        "Around Morning and Past Morning",
+        "Actual Morning and Post Morning"
+      ],
+      "answer": 1,
+      "explanation": "AM stands for 'Ante Meridiem' (Latin for 'before midday') and PM stands for 'Post Meridiem' (Latin for 'after midday'). They divide the 24-hour day into two 12-hour periods."
+    },
+    {
+      "id": 507,
+      "category": "general",
+      "difficulty": 3,
+      "question": "What is the name of the scale used to measure the intensity of earthquakes?",
+      "options": [
+        "Beaufort Scale",
+        "Richter Scale",
+        "Kelvin Scale",
+        "Fahrenheit Scale"
+      ],
+      "answer": 1,
+      "explanation": "The Richter Scale (now largely replaced by the Moment Magnitude Scale) measures the magnitude of earthquakes. Each whole number increase represents roughly 32 times more energy released."
+    },
+    {
+      "id": 508,
+      "category": "general",
+      "difficulty": 4,
+      "question": "What is the 'golden ratio' approximately equal to?",
+      "options": [
+        "1.414",
+        "1.618",
+        "2.718",
+        "3.142"
+      ],
+      "answer": 1,
+      "explanation": "The golden ratio (phi, φ) is approximately 1.618. It appears throughout nature, art, and architecture, and is found when a line is divided so that the ratio of the whole to the longer part equals the ratio of the longer part to the shorter part."
+    },
+    {
+      "id": 509,
+      "category": "general",
+      "difficulty": 4,
+      "question": "What is synesthesia?",
+      "options": [
+        "A musical instrument",
+        "A neurological condition where stimulation of one sense triggers another",
+        "A type of memory loss",
+        "A speech disorder"
+      ],
+      "answer": 1,
+      "explanation": "Synesthesia is a neurological condition where stimulation of one sense involuntarily triggers an experience in another. For example, a person might 'see' colours when hearing music or 'taste' shapes."
+    },
+    {
+      "id": 510,
+      "category": "general",
+      "difficulty": 4,
+      "question": "What is the name of the effect where people tend to favour information that confirms their existing beliefs?",
+      "options": [
+        "Halo effect",
+        "Confirmation bias",
+        "Dunning-Kruger effect",
+        "Anchoring bias"
+      ],
+      "answer": 1,
+      "explanation": "Confirmation bias is the tendency to search for, interpret, and remember information in a way that confirms one's pre-existing beliefs. It is one of the most pervasive cognitive biases in human psychology."
+    },
+    {
+      "id": 511,
+      "category": "general",
+      "difficulty": 5,
+      "question": "What is the 'Ship of Theseus' paradox?",
+      "options": [
+        "A paradox about time travel",
+        "A paradox about whether an object that has had all its parts replaced is still the same object",
+        "A paradox about infinity",
+        "A paradox about free will"
+      ],
+      "answer": 1,
+      "explanation": "The Ship of Theseus asks: if every plank of a ship is gradually replaced, is it still the same ship? This ancient paradox explores questions of identity and persistence through change, and remains debated in philosophy today."
+    },
+    {
+      "id": 512,
+      "category": "general",
+      "difficulty": 5,
+      "question": "What is Benford's Law?",
+      "options": [
+        "A law about thermodynamics",
+        "A law predicting that the digit 1 appears as the leading digit more often than other digits in many datasets",
+        "A law of motion",
+        "A law about supply and demand"
+      ],
+      "answer": 1,
+      "explanation": "Benford's Law states that in many naturally occurring datasets, the leading digit is more likely to be small. The digit 1 appears as the leading digit about 30% of the time, while 9 appears only about 5% of the time. It is used to detect fraud in financial data."
+    },
+    {
+      "id": 513,
+      "category": "general",
+      "difficulty": 1,
+      "question": "What colour are emeralds?",
+      "options": [
+        "Red",
+        "Blue",
+        "Green",
+        "Yellow"
+      ],
+      "answer": 2,
+      "explanation": "Emeralds are green gemstones, a variety of the mineral beryl. Their green colour comes from trace amounts of chromium and sometimes vanadium. They have been prized as gemstones since ancient times."
+    },
+    {
+      "id": 514,
+      "category": "general",
+      "difficulty": 2,
+      "question": "How many days are there in a leap year?",
+      "options": [
+        "364",
+        "365",
+        "366",
+        "367"
+      ],
+      "answer": 2,
+      "explanation": "A leap year has 366 days, with the extra day added to February (29th). Leap years occur every 4 years (with some exceptions) to keep our calendar aligned with Earth's orbit around the Sun."
+    },
+    {
+      "id": 515,
+      "category": "general",
+      "difficulty": 3,
+      "question": "What is the name of the world's largest coral reef system?",
+      "options": [
+        "Belize Barrier Reef",
+        "Great Barrier Reef",
+        "Red Sea Coral Reef",
+        "New Caledonia Barrier Reef"
+      ],
+      "answer": 1,
+      "explanation": "The Great Barrier Reef, located off the coast of Queensland, Australia, is the world's largest coral reef system. It stretches over 2,300 kilometres and is visible from space."
+    },
+    {
+      "id": 516,
+      "category": "general",
+      "difficulty": 4,
+      "question": "What does the word 'karate' literally mean in Japanese?",
+      "options": [
+        "Fighting spirit",
+        "Way of the warrior",
+        "Empty hand",
+        "Strong fist"
+      ],
+      "answer": 2,
+      "explanation": "Karate literally means 'empty hand' in Japanese (kara = empty, te = hand). The martial art emphasises striking techniques using hands and feet without weapons."
+    },
+    {
+      "id": 517,
+      "category": "general",
+      "difficulty": 5,
+      "question": "What is the 'Sapir-Whorf hypothesis'?",
+      "options": [
+        "A theory about gravity",
+        "A theory that the language you speak influences how you think",
+        "A theory about evolution",
+        "A theory about light waves"
+      ],
+      "answer": 1,
+      "explanation": "The Sapir-Whorf hypothesis (linguistic relativity) proposes that the structure of a language affects its speakers' worldview and cognition. The strong version claims language determines thought, while the weaker version suggests it merely influences it."
+    },
+    {
+      "id": 518,
+      "category": "general",
+      "difficulty": 2,
+      "question": "Which organ in the human body is responsible for filtering blood?",
+      "options": [
+        "Liver",
+        "Kidney",
+        "Heart",
+        "Lungs"
+      ],
+      "answer": 1,
+      "explanation": "The kidneys filter blood, removing waste products and excess fluid to produce urine. Each kidney contains about one million tiny filtering units called nephrons. Adults filter roughly 180 litres of blood per day."
+    },
+    {
+      "id": 519,
+      "category": "general",
+      "difficulty": 1,
+      "question": "What is the primary colour of the sky on a clear day?",
+      "options": [
+        "White",
+        "Green",
+        "Blue",
+        "Grey"
+      ],
+      "answer": 2,
+      "explanation": "The sky appears blue on a clear day due to Rayleigh scattering — sunlight interacts with Earth's atmosphere, and shorter blue wavelengths are scattered more than other colours, making the sky appear blue."
+    },
+    {
+      "id": 520,
+      "category": "general",
+      "difficulty": 4,
+      "question": "What is the Mpemba effect?",
+      "options": [
+        "A weather phenomenon",
+        "The observation that hot water can freeze faster than cold water under certain conditions",
+        "A type of optical illusion",
+        "A sound distortion effect"
+      ],
+      "answer": 1,
+      "explanation": "The Mpemba effect is the counterintuitive observation that hot water can sometimes freeze faster than cold water. Named after Erasto Mpemba, a Tanzanian student who noticed this in 1963, the exact mechanisms are still debated by scientists."
     }
   ]
 }
