@@ -7741,6 +7741,1126 @@
       ],
       "answer": 1,
       "explanation": "The butterfly effect, popularised by meteorologist Edward Lorenz, illustrates how sensitive dependence on initial conditions in chaotic systems means that small perturbations - figuratively the flap of a butterfly's wings - can have very large, unpredictable consequences elsewhere, such as influencing the formation of a distant tornado."
+    },
+    {
+      "id": 601,
+      "category": "science",
+      "difficulty": 1,
+      "question": "Which gas do humans need to breathe in order to survive?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide",
+        "Hydrogen"
+      ],
+      "answer": 0,
+      "explanation": "Humans breathe in oxygen (O2), which is used by cells for respiration to release energy from food."
+    },
+    {
+      "id": 602,
+      "category": "science",
+      "difficulty": 1,
+      "question": "How many legs does a spider have?",
+      "options": [
+        "Six",
+        "Eight",
+        "Ten",
+        "Twelve"
+      ],
+      "answer": 1,
+      "explanation": "Spiders are arachnids and have eight legs, distinguishing them from insects, which have six."
+    },
+    {
+      "id": 603,
+      "category": "science",
+      "difficulty": 2,
+      "question": "What is the chemical symbol for nitrogen?",
+      "options": [
+        "Ni",
+        "N",
+        "Na",
+        "Nt"
+      ],
+      "answer": 1,
+      "explanation": "Nitrogen's chemical symbol on the periodic table is N. It makes up about 78% of Earth's atmosphere."
+    },
+    {
+      "id": 604,
+      "category": "science",
+      "difficulty": 2,
+      "question": "Which planet in our solar system is famous for its enormous 'Great Red Spot'?",
+      "options": [
+        "Mars",
+        "Saturn",
+        "Jupiter",
+        "Neptune"
+      ],
+      "answer": 2,
+      "explanation": "The Great Red Spot is a giant anticyclonic storm on Jupiter that has been observed for at least 350 years."
+    },
+    {
+      "id": 605,
+      "category": "science",
+      "difficulty": 3,
+      "question": "What is the chemical formula for methane?",
+      "options": [
+        "CH4",
+        "CO2",
+        "C2H6",
+        "CH3"
+      ],
+      "answer": 0,
+      "explanation": "Methane is the simplest hydrocarbon, consisting of one carbon atom bonded to four hydrogen atoms (CH4)."
+    },
+    {
+      "id": 606,
+      "category": "science",
+      "difficulty": 3,
+      "question": "Which type of blood vessel carries blood back toward the heart?",
+      "options": [
+        "Arteries",
+        "Veins",
+        "Capillaries",
+        "Aorta"
+      ],
+      "answer": 1,
+      "explanation": "Veins carry deoxygenated blood (with the exception of the pulmonary veins) back toward the heart."
+    },
+    {
+      "id": 607,
+      "category": "science",
+      "difficulty": 4,
+      "question": "Which galaxy contains our Solar System?",
+      "options": [
+        "Andromeda",
+        "Triangulum",
+        "Milky Way",
+        "Sombrero"
+      ],
+      "answer": 2,
+      "explanation": "Our Solar System lies in one of the spiral arms of the Milky Way, a barred spiral galaxy roughly 100,000 light-years across."
+    },
+    {
+      "id": 608,
+      "category": "science",
+      "difficulty": 4,
+      "question": "Which element is by far the most abundant in the Sun by mass?",
+      "options": [
+        "Helium",
+        "Oxygen",
+        "Carbon",
+        "Hydrogen"
+      ],
+      "answer": 3,
+      "explanation": "About three-quarters of the Sun's mass is hydrogen, which is fused into helium in its core to produce sunlight."
+    },
+    {
+      "id": 609,
+      "category": "science",
+      "difficulty": 5,
+      "question": "What is the name of the boundary surrounding a black hole beyond which nothing, not even light, can escape?",
+      "options": [
+        "Singularity",
+        "Event horizon",
+        "Photon sphere",
+        "Ergosphere"
+      ],
+      "answer": 1,
+      "explanation": "The event horizon marks the point of no return: any matter or radiation crossing it is gravitationally trapped within the black hole."
+    },
+    {
+      "id": 610,
+      "category": "science",
+      "difficulty": 5,
+      "question": "What does the second law of thermodynamics state about the entropy of an isolated system?",
+      "options": [
+        "It always decreases over time",
+        "It remains constant",
+        "It tends to increase over time",
+        "It oscillates"
+      ],
+      "answer": 2,
+      "explanation": "The second law states that the entropy (a measure of disorder) of an isolated system tends to increase over time, defining the arrow of time."
+    },
+    {
+      "id": 611,
+      "category": "history",
+      "difficulty": 1,
+      "question": "In which country did the Industrial Revolution first begin in the 18th century?",
+      "options": [
+        "France",
+        "Germany",
+        "Britain",
+        "United States"
+      ],
+      "answer": 2,
+      "explanation": "The Industrial Revolution began in Britain in the mid-18th century, driven by innovations in textiles, steam power and iron production."
+    },
+    {
+      "id": 612,
+      "category": "history",
+      "difficulty": 1,
+      "question": "Which U.S. President was assassinated in Dallas, Texas, in November 1963?",
+      "options": [
+        "Abraham Lincoln",
+        "John F. Kennedy",
+        "William McKinley",
+        "James Garfield"
+      ],
+      "answer": 1,
+      "explanation": "John F. Kennedy was shot while riding in a presidential motorcade through Dealey Plaza in Dallas on 22 November 1963."
+    },
+    {
+      "id": 613,
+      "category": "history",
+      "difficulty": 2,
+      "question": "In which century did the Black Death sweep through Europe, killing roughly a third of the population?",
+      "options": [
+        "12th century",
+        "13th century",
+        "14th century",
+        "15th century"
+      ],
+      "answer": 2,
+      "explanation": "The Black Death struck Europe between roughly 1347 and 1351, in the 14th century, and is estimated to have killed 30-60% of the population."
+    },
+    {
+      "id": 614,
+      "category": "history",
+      "difficulty": 2,
+      "question": "Which Roman statesman was assassinated in 44 BC on the Ides of March?",
+      "options": [
+        "Pompey",
+        "Mark Antony",
+        "Julius Caesar",
+        "Augustus"
+      ],
+      "answer": 2,
+      "explanation": "Julius Caesar was stabbed to death by a group of senators in the Theatre of Pompey on 15 March 44 BC."
+    },
+    {
+      "id": 615,
+      "category": "history",
+      "difficulty": 3,
+      "question": "Who co-authored 'The Communist Manifesto' (1848) with Friedrich Engels?",
+      "options": [
+        "Vladimir Lenin",
+        "Mikhail Bakunin",
+        "Leon Trotsky",
+        "Karl Marx"
+      ],
+      "answer": 3,
+      "explanation": "Karl Marx and Friedrich Engels jointly authored 'The Communist Manifesto', commissioned by the Communist League and first published in London in 1848."
+    },
+    {
+      "id": 616,
+      "category": "history",
+      "difficulty": 3,
+      "question": "Which British monarch holds the record for the longest reign?",
+      "options": [
+        "Queen Victoria",
+        "Queen Elizabeth II",
+        "King George III",
+        "King Henry III"
+      ],
+      "answer": 1,
+      "explanation": "Elizabeth II reigned from 1952 until her death in 2022, a span of more than 70 years - longer than any other British monarch."
+    },
+    {
+      "id": 617,
+      "category": "history",
+      "difficulty": 4,
+      "question": "Which Chinese dynasty built most of the Great Wall still visible today?",
+      "options": [
+        "Han",
+        "Tang",
+        "Ming",
+        "Qing"
+      ],
+      "answer": 2,
+      "explanation": "Although earlier walls existed, the vast majority of the stone-and-brick Great Wall standing today was constructed during the Ming dynasty (1368-1644)."
+    },
+    {
+      "id": 618,
+      "category": "history",
+      "difficulty": 4,
+      "question": "On which Mediterranean island was Napoleon Bonaparte born in 1769?",
+      "options": [
+        "Sardinia",
+        "Sicily",
+        "Corsica",
+        "Malta"
+      ],
+      "answer": 2,
+      "explanation": "Napoleon was born in Ajaccio on Corsica in 1769, a year after the island was ceded by Genoa to France."
+    },
+    {
+      "id": 619,
+      "category": "history",
+      "difficulty": 5,
+      "question": "What was the 1884-85 conference, hosted in the German capital, that formalised the partition of Africa among European powers?",
+      "options": [
+        "Congress of Vienna",
+        "Berlin Conference",
+        "Treaty of Versailles",
+        "Yalta Conference"
+      ],
+      "answer": 1,
+      "explanation": "The Berlin Conference, organised by Otto von Bismarck, set the ground rules for the colonisation of Africa during the 'Scramble for Africa'."
+    },
+    {
+      "id": 620,
+      "category": "history",
+      "difficulty": 5,
+      "question": "Which Byzantine emperor codified Roman law in the 'Corpus Juris Civilis' in the 6th century?",
+      "options": [
+        "Constantine I",
+        "Heraclius",
+        "Justinian I",
+        "Basil II"
+      ],
+      "answer": 2,
+      "explanation": "Justinian I (r. 527-565) commissioned the compilation that became the 'Corpus Juris Civilis', the foundation of later civil-law traditions in Europe."
+    },
+    {
+      "id": 621,
+      "category": "geography",
+      "difficulty": 1,
+      "question": "What is the capital of Germany?",
+      "options": [
+        "Munich",
+        "Hamburg",
+        "Berlin",
+        "Frankfurt"
+      ],
+      "answer": 2,
+      "explanation": "Berlin has been the capital of a reunified Germany since 1990 and is the country's largest city."
+    },
+    {
+      "id": 622,
+      "category": "geography",
+      "difficulty": 1,
+      "question": "What is the capital of Spain?",
+      "options": [
+        "Barcelona",
+        "Seville",
+        "Valencia",
+        "Madrid"
+      ],
+      "answer": 3,
+      "explanation": "Madrid, located near the centre of the Iberian Peninsula, has been Spain's capital since 1561."
+    },
+    {
+      "id": 623,
+      "category": "geography",
+      "difficulty": 2,
+      "question": "What is the longest river in Asia?",
+      "options": [
+        "Mekong",
+        "Yangtze",
+        "Ganges",
+        "Yellow River"
+      ],
+      "answer": 1,
+      "explanation": "The Yangtze (Chang Jiang) flows about 6,300 km across China, making it the longest river in Asia and the third longest in the world."
+    },
+    {
+      "id": 624,
+      "category": "geography",
+      "difficulty": 2,
+      "question": "In which country are the Great Pyramids of Giza located?",
+      "options": [
+        "Sudan",
+        "Libya",
+        "Egypt",
+        "Mexico"
+      ],
+      "answer": 2,
+      "explanation": "The Pyramids of Giza, including the Great Pyramid built for Pharaoh Khufu, are located on the Giza Plateau outside Cairo, Egypt."
+    },
+    {
+      "id": 625,
+      "category": "geography",
+      "difficulty": 3,
+      "question": "What is the capital of Argentina?",
+      "options": [
+        "Cordoba",
+        "Buenos Aires",
+        "Rosario",
+        "Mendoza"
+      ],
+      "answer": 1,
+      "explanation": "Buenos Aires, located on the western shore of the Rio de la Plata estuary, is the capital and largest city of Argentina."
+    },
+    {
+      "id": 626,
+      "category": "geography",
+      "difficulty": 3,
+      "question": "Lisbon is the capital of which European country?",
+      "options": [
+        "Spain",
+        "Italy",
+        "Portugal",
+        "Greece"
+      ],
+      "answer": 2,
+      "explanation": "Lisbon, on the Atlantic coast at the mouth of the Tagus River, is the capital and largest city of Portugal."
+    },
+    {
+      "id": 627,
+      "category": "geography",
+      "difficulty": 4,
+      "question": "Which waterfall is the world's highest uninterrupted waterfall?",
+      "options": [
+        "Niagara Falls",
+        "Victoria Falls",
+        "Iguazu Falls",
+        "Angel Falls"
+      ],
+      "answer": 3,
+      "explanation": "Angel Falls in Venezuela has an uninterrupted drop of about 807 metres, the tallest of any waterfall on Earth."
+    },
+    {
+      "id": 628,
+      "category": "geography",
+      "difficulty": 4,
+      "question": "Which body of water is generally regarded as the saltiest sea on Earth?",
+      "options": [
+        "Red Sea",
+        "Caspian Sea",
+        "Mediterranean Sea",
+        "Dead Sea"
+      ],
+      "answer": 3,
+      "explanation": "The Dead Sea, bordered by Israel, Jordan and the West Bank, has a salinity of around 34%, almost 10 times that of typical ocean water."
+    },
+    {
+      "id": 629,
+      "category": "geography",
+      "difficulty": 5,
+      "question": "Which country has more UNESCO World Heritage Sites than any other?",
+      "options": [
+        "China",
+        "Spain",
+        "France",
+        "Italy"
+      ],
+      "answer": 3,
+      "explanation": "Italy has long topped the list, with over 50 inscribed sites ranging from the historic centre of Rome to the Dolomites."
+    },
+    {
+      "id": 630,
+      "category": "geography",
+      "difficulty": 5,
+      "question": "Which strait connects the Mediterranean Sea to the Atlantic Ocean between Spain and Morocco?",
+      "options": [
+        "Bosphorus",
+        "Strait of Gibraltar",
+        "Dardanelles",
+        "Strait of Hormuz"
+      ],
+      "answer": 1,
+      "explanation": "The Strait of Gibraltar, only about 13 km wide at its narrowest, links the Mediterranean Sea to the Atlantic Ocean and separates Europe from Africa."
+    },
+    {
+      "id": 631,
+      "category": "entertainment",
+      "difficulty": 1,
+      "question": "Which actor played Tony Stark / Iron Man in the Marvel Cinematic Universe?",
+      "options": [
+        "Chris Evans",
+        "Robert Downey Jr.",
+        "Chris Hemsworth",
+        "Mark Ruffalo"
+      ],
+      "answer": 1,
+      "explanation": "Robert Downey Jr. portrayed Tony Stark / Iron Man from 2008's 'Iron Man' through to 'Avengers: Endgame' in 2019."
+    },
+    {
+      "id": 632,
+      "category": "entertainment",
+      "difficulty": 1,
+      "question": "Which singer is widely known as 'The King of Pop'?",
+      "options": [
+        "Elvis Presley",
+        "Prince",
+        "Michael Jackson",
+        "Stevie Wonder"
+      ],
+      "answer": 2,
+      "explanation": "Michael Jackson earned the nickname 'The King of Pop' for his enormous commercial success and influence on popular music."
+    },
+    {
+      "id": 633,
+      "category": "entertainment",
+      "difficulty": 2,
+      "question": "Who painted the ceiling of the Sistine Chapel?",
+      "options": [
+        "Raphael",
+        "Donatello",
+        "Michelangelo",
+        "Caravaggio"
+      ],
+      "answer": 2,
+      "explanation": "Michelangelo Buonarroti painted the Sistine Chapel ceiling between 1508 and 1512 on commission from Pope Julius II."
+    },
+    {
+      "id": 634,
+      "category": "entertainment",
+      "difficulty": 2,
+      "question": "Which American rock band released the 1991 single 'Smells Like Teen Spirit'?",
+      "options": [
+        "Pearl Jam",
+        "Soundgarden",
+        "Nirvana",
+        "Alice in Chains"
+      ],
+      "answer": 2,
+      "explanation": "'Smells Like Teen Spirit', from the album 'Nevermind', became the breakout hit for the Seattle grunge band Nirvana, led by Kurt Cobain."
+    },
+    {
+      "id": 635,
+      "category": "entertainment",
+      "difficulty": 3,
+      "question": "Which 1972 Francis Ford Coppola film opens with the line 'I believe in America'?",
+      "options": [
+        "The French Connection",
+        "Chinatown",
+        "The Godfather",
+        "Mean Streets"
+      ],
+      "answer": 2,
+      "explanation": "Bonasera utters 'I believe in America' as the opening line of 'The Godfather' (1972), one of the most celebrated openings in cinema."
+    },
+    {
+      "id": 636,
+      "category": "entertainment",
+      "difficulty": 3,
+      "question": "Who directed the 1993 Holocaust drama 'Schindler's List'?",
+      "options": [
+        "Martin Scorsese",
+        "Steven Spielberg",
+        "Ridley Scott",
+        "Oliver Stone"
+      ],
+      "answer": 1,
+      "explanation": "Steven Spielberg directed 'Schindler's List', which won seven Academy Awards including Best Picture and Best Director."
+    },
+    {
+      "id": 637,
+      "category": "entertainment",
+      "difficulty": 4,
+      "question": "Which 19th-century composer wrote the four-opera cycle 'Der Ring des Nibelungen'?",
+      "options": [
+        "Giuseppe Verdi",
+        "Richard Wagner",
+        "Gustav Mahler",
+        "Richard Strauss"
+      ],
+      "answer": 1,
+      "explanation": "Richard Wagner composed 'Der Ring des Nibelungen' (the Ring Cycle) over roughly 26 years; the four operas premiered as a cycle at Bayreuth in 1876."
+    },
+    {
+      "id": 638,
+      "category": "entertainment",
+      "difficulty": 4,
+      "question": "Which Spanish surrealist painted 'The Persistence of Memory', famous for its melting clocks?",
+      "options": [
+        "Pablo Picasso",
+        "Joan Miro",
+        "Francisco Goya",
+        "Salvador Dali"
+      ],
+      "answer": 3,
+      "explanation": "Salvador Dali painted 'The Persistence of Memory' in 1931; it now hangs in the Museum of Modern Art in New York."
+    },
+    {
+      "id": 639,
+      "category": "entertainment",
+      "difficulty": 5,
+      "question": "By what nickname is Beethoven's Symphony No. 3 in E flat major commonly known?",
+      "options": [
+        "Pastoral",
+        "Eroica",
+        "Jupiter",
+        "Choral"
+      ],
+      "answer": 1,
+      "explanation": "Beethoven's Third Symphony is nicknamed 'Eroica' ('Heroic'); he originally dedicated it to Napoleon before scratching out the dedication."
+    },
+    {
+      "id": 640,
+      "category": "entertainment",
+      "difficulty": 5,
+      "question": "Which 1957 Ingmar Bergman film features a medieval knight playing a game of chess with Death?",
+      "options": [
+        "Wild Strawberries",
+        "Persona",
+        "The Seventh Seal",
+        "Cries and Whispers"
+      ],
+      "answer": 2,
+      "explanation": "'The Seventh Seal' (Det sjunde inseglet) stars Max von Sydow as a knight returning from the Crusades who challenges Death to a game of chess."
+    },
+    {
+      "id": 641,
+      "category": "sports",
+      "difficulty": 1,
+      "question": "How many points is a successful free throw worth in basketball?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "A made free throw, awarded after certain fouls, counts as one point in basketball."
+    },
+    {
+      "id": 642,
+      "category": "sports",
+      "difficulty": 1,
+      "question": "How long is a standard football (soccer) match, excluding stoppage time and extra time?",
+      "options": [
+        "60 minutes",
+        "80 minutes",
+        "90 minutes",
+        "100 minutes"
+      ],
+      "answer": 2,
+      "explanation": "A standard football match is 90 minutes long, divided into two 45-minute halves separated by a half-time interval."
+    },
+    {
+      "id": 643,
+      "category": "sports",
+      "difficulty": 2,
+      "question": "In which city were the 2012 Summer Olympic Games held?",
+      "options": [
+        "Beijing",
+        "Rio de Janeiro",
+        "Athens",
+        "London"
+      ],
+      "answer": 3,
+      "explanation": "London hosted the 2012 Summer Olympic Games, becoming the first city to host the modern Games three times (1908, 1948 and 2012)."
+    },
+    {
+      "id": 644,
+      "category": "sports",
+      "difficulty": 2,
+      "question": "Which country won the 2018 FIFA World Cup in Russia?",
+      "options": [
+        "Croatia",
+        "Germany",
+        "France",
+        "Belgium"
+      ],
+      "answer": 2,
+      "explanation": "France beat Croatia 4-2 in the 2018 World Cup final in Moscow to claim their second World Cup title."
+    },
+    {
+      "id": 645,
+      "category": "sports",
+      "difficulty": 3,
+      "question": "On what type of court surface is the Australian Open tennis tournament played?",
+      "options": [
+        "Grass",
+        "Red clay",
+        "Hard court",
+        "Carpet"
+      ],
+      "answer": 2,
+      "explanation": "Since 1988 the Australian Open has been played on hard courts at Melbourne Park (originally Rebound Ace, then Plexicushion, now GreenSet)."
+    },
+    {
+      "id": 646,
+      "category": "sports",
+      "difficulty": 3,
+      "question": "Which European football club has won the most UEFA Champions League titles?",
+      "options": [
+        "AC Milan",
+        "Bayern Munich",
+        "Liverpool",
+        "Real Madrid"
+      ],
+      "answer": 3,
+      "explanation": "Real Madrid has won the European Cup / Champions League more times than any other club, including the first five editions from 1956 to 1960."
+    },
+    {
+      "id": 647,
+      "category": "sports",
+      "difficulty": 4,
+      "question": "Which jockey rode Secretariat to the U.S. Triple Crown in 1973?",
+      "options": [
+        "Bill Shoemaker",
+        "Ron Turcotte",
+        "Eddie Arcaro",
+        "Steve Cauthen"
+      ],
+      "answer": 1,
+      "explanation": "Ron Turcotte rode Secretariat to victory in the 1973 Kentucky Derby, Preakness and Belmont Stakes, the last by a record 31 lengths."
+    },
+    {
+      "id": 648,
+      "category": "sports",
+      "difficulty": 4,
+      "question": "How many minutes long is each quarter in an NBA regular-season game?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
+      "answer": 1,
+      "explanation": "An NBA game consists of four 12-minute quarters, for a total of 48 minutes of regulation play."
+    },
+    {
+      "id": 649,
+      "category": "sports",
+      "difficulty": 5,
+      "question": "In which year did Roger Bannister become the first person officially recorded as running a sub-four-minute mile?",
+      "options": [
+        "1948",
+        "1952",
+        "1954",
+        "1960"
+      ],
+      "answer": 2,
+      "explanation": "On 6 May 1954, at Iffley Road Track in Oxford, Roger Bannister ran the mile in 3:59.4, the first sub-four-minute mile in recorded history."
+    },
+    {
+      "id": 650,
+      "category": "sports",
+      "difficulty": 5,
+      "question": "In boxing, what is the term for a straight punch thrown with the lead hand?",
+      "options": [
+        "Hook",
+        "Uppercut",
+        "Cross",
+        "Jab"
+      ],
+      "answer": 3,
+      "explanation": "A jab is a quick, straight punch thrown with the lead hand and is the most-used punch in boxing for distance control and setting up combinations."
+    },
+    {
+      "id": 651,
+      "category": "technology",
+      "difficulty": 1,
+      "question": "In a workplace context, what does the acronym 'IT' commonly stand for?",
+      "options": [
+        "Internal Tech",
+        "Information Technology",
+        "Internet Tools",
+        "Integrated Telecoms"
+      ],
+      "answer": 1,
+      "explanation": "'IT' stands for Information Technology - the use of computers, networks and software to store, retrieve and transmit information."
+    },
+    {
+      "id": 652,
+      "category": "technology",
+      "difficulty": 1,
+      "question": "Which South Korean company makes the 'Galaxy' line of smartphones?",
+      "options": [
+        "LG",
+        "Samsung",
+        "Huawei",
+        "Sony"
+      ],
+      "answer": 1,
+      "explanation": "Samsung Electronics, headquartered in Suwon, South Korea, has produced the Galaxy smartphone series since 2009."
+    },
+    {
+      "id": 653,
+      "category": "technology",
+      "difficulty": 2,
+      "question": "In computing, what does 'ROM' stand for?",
+      "options": [
+        "Random Output Memory",
+        "Real Operating Memory",
+        "Read-Only Memory",
+        "Remote Output Module"
+      ],
+      "answer": 2,
+      "explanation": "ROM stands for Read-Only Memory: non-volatile storage whose contents are typically written at manufacture and cannot easily be changed."
+    },
+    {
+      "id": 654,
+      "category": "technology",
+      "difficulty": 2,
+      "question": "Which protocol is most commonly used to send email between mail servers?",
+      "options": [
+        "IMAP",
+        "POP3",
+        "SMTP",
+        "FTP"
+      ],
+      "answer": 2,
+      "explanation": "SMTP (Simple Mail Transfer Protocol) is the standard protocol for sending email between servers; IMAP and POP3 are used to retrieve it."
+    },
+    {
+      "id": 655,
+      "category": "technology",
+      "difficulty": 3,
+      "question": "Which 19th-century English mathematician is often called the 'father of the computer' for designing the Analytical Engine?",
+      "options": [
+        "Alan Turing",
+        "Charles Babbage",
+        "John von Neumann",
+        "Ada Lovelace"
+      ],
+      "answer": 1,
+      "explanation": "Charles Babbage (1791-1871) designed the mechanical Difference Engine and Analytical Engine, the latter being a general-purpose programmable computer in concept."
+    },
+    {
+      "id": 656,
+      "category": "technology",
+      "difficulty": 3,
+      "question": "Which programming language was originally developed by Bjarne Stroustrup as an extension of C?",
+      "options": [
+        "Java",
+        "Rust",
+        "C#",
+        "C++"
+      ],
+      "answer": 3,
+      "explanation": "Bjarne Stroustrup began work on what became C++ at Bell Labs in 1979, originally calling it 'C with Classes' before renaming it in 1983."
+    },
+    {
+      "id": 657,
+      "category": "technology",
+      "difficulty": 4,
+      "question": "Which form of cryptography uses a pair of keys - one public and one private?",
+      "options": [
+        "Symmetric-key cryptography",
+        "Asymmetric (public-key) cryptography",
+        "Hashing",
+        "Steganography"
+      ],
+      "answer": 1,
+      "explanation": "In asymmetric (public-key) cryptography, a publicly shared key encrypts data that only the matching private key can decrypt, underpinning protocols like TLS and PGP."
+    },
+    {
+      "id": 658,
+      "category": "technology",
+      "difficulty": 4,
+      "question": "What is the name of the algorithm, developed by Larry Page and Sergey Brin, that originally powered Google's web search ranking?",
+      "options": [
+        "HITS",
+        "PageRank",
+        "TF-IDF",
+        "BM25"
+      ],
+      "answer": 1,
+      "explanation": "PageRank, named after Larry Page, ranks web pages by treating links as votes of confidence, with votes from more important pages weighted more heavily."
+    },
+    {
+      "id": 659,
+      "category": "technology",
+      "difficulty": 5,
+      "question": "In database systems, what does the acronym 'ACID' stand for?",
+      "options": [
+        "Atomicity, Consistency, Isolation, Durability",
+        "Access, Concurrency, Integrity, Distribution",
+        "Authentication, Caching, Indexing, Disk",
+        "Asynchronous, Coherent, Idempotent, Distributed"
+      ],
+      "answer": 0,
+      "explanation": "ACID describes the properties of reliable transactions: Atomicity, Consistency, Isolation and Durability, introduced by Theo Haerder and Andreas Reuter."
+    },
+    {
+      "id": 660,
+      "category": "technology",
+      "difficulty": 5,
+      "question": "In concurrent programming, what is a 'race condition'?",
+      "options": [
+        "A scheduling algorithm that prioritises the fastest thread",
+        "A bug where the result depends on the unpredictable ordering of concurrent operations",
+        "An optimisation that runs threads in parallel",
+        "A hardware fault caused by overheating"
+      ],
+      "answer": 1,
+      "explanation": "A race condition occurs when the correctness of a program depends on the timing or interleaving of multiple threads or processes accessing shared state."
+    },
+    {
+      "id": 661,
+      "category": "literature",
+      "difficulty": 1,
+      "question": "Who is the author of the Harry Potter book series?",
+      "options": [
+        "J.R.R. Tolkien",
+        "Roald Dahl",
+        "J.K. Rowling",
+        "Philip Pullman"
+      ],
+      "answer": 2,
+      "explanation": "British author J.K. Rowling wrote the seven Harry Potter novels, the first of which, 'Harry Potter and the Philosopher's Stone', was published in 1997."
+    },
+    {
+      "id": 662,
+      "category": "literature",
+      "difficulty": 1,
+      "question": "Which children's book series stars a middle-school boy named Greg Heffley?",
+      "options": [
+        "Captain Underpants",
+        "Diary of a Wimpy Kid",
+        "Goosebumps",
+        "Percy Jackson"
+      ],
+      "answer": 1,
+      "explanation": "Greg Heffley is the narrator and protagonist of Jeff Kinney's 'Diary of a Wimpy Kid' series, which began in 2007."
+    },
+    {
+      "id": 663,
+      "category": "literature",
+      "difficulty": 2,
+      "question": "Who wrote the novel 'Lord of the Flies' (1954)?",
+      "options": [
+        "George Orwell",
+        "William Golding",
+        "Aldous Huxley",
+        "Anthony Burgess"
+      ],
+      "answer": 1,
+      "explanation": "British novelist William Golding wrote 'Lord of the Flies'; he was awarded the Nobel Prize in Literature in 1983."
+    },
+    {
+      "id": 664,
+      "category": "literature",
+      "difficulty": 2,
+      "question": "Who wrote the adventure novel 'Treasure Island'?",
+      "options": [
+        "Jules Verne",
+        "Robert Louis Stevenson",
+        "Rudyard Kipling",
+        "Daniel Defoe"
+      ],
+      "answer": 1,
+      "explanation": "Scottish author Robert Louis Stevenson published 'Treasure Island' in book form in 1883; it features pirate Long John Silver and young Jim Hawkins."
+    },
+    {
+      "id": 665,
+      "category": "literature",
+      "difficulty": 3,
+      "question": "Who wrote the historical novel 'Les Miserables' (1862)?",
+      "options": [
+        "Alexandre Dumas",
+        "Emile Zola",
+        "Victor Hugo",
+        "Honore de Balzac"
+      ],
+      "answer": 2,
+      "explanation": "Victor Hugo's 'Les Miserables' follows the ex-convict Jean Valjean against the backdrop of post-Napoleonic France and the June Rebellion of 1832."
+    },
+    {
+      "id": 666,
+      "category": "literature",
+      "difficulty": 3,
+      "question": "Which Margaret Atwood dystopian novel is set in the totalitarian Republic of Gilead?",
+      "options": [
+        "Oryx and Crake",
+        "The Blind Assassin",
+        "Alias Grace",
+        "The Handmaid's Tale"
+      ],
+      "answer": 3,
+      "explanation": "'The Handmaid's Tale' (1985) depicts a future theocracy in former U.S. territory where fertile women are forced into reproductive servitude."
+    },
+    {
+      "id": 667,
+      "category": "literature",
+      "difficulty": 4,
+      "question": "Who wrote the 1879 play 'A Doll's House'?",
+      "options": [
+        "Anton Chekhov",
+        "August Strindberg",
+        "Henrik Ibsen",
+        "George Bernard Shaw"
+      ],
+      "answer": 2,
+      "explanation": "Norwegian playwright Henrik Ibsen wrote 'A Doll's House', whose famous ending - Nora leaving her husband - shocked 19th-century audiences."
+    },
+    {
+      "id": 668,
+      "category": "literature",
+      "difficulty": 4,
+      "question": "Which French novelist wrote 'Madame Bovary' (1856)?",
+      "options": [
+        "Honore de Balzac",
+        "Stendhal",
+        "Gustave Flaubert",
+        "Emile Zola"
+      ],
+      "answer": 2,
+      "explanation": "Gustave Flaubert's 'Madame Bovary' tells of Emma Bovary's adulteries and ruinous pursuit of romantic ideals; it was prosecuted for obscenity upon publication."
+    },
+    {
+      "id": 669,
+      "category": "literature",
+      "difficulty": 5,
+      "question": "Which English novelist wrote 'Middlemarch' (1871-72) under a male pen name?",
+      "options": [
+        "Charlotte Bronte",
+        "Elizabeth Gaskell",
+        "George Eliot",
+        "Virginia Woolf"
+      ],
+      "answer": 2,
+      "explanation": "Mary Ann Evans published her novels, including 'Middlemarch', under the pen name George Eliot to be taken seriously as a writer of literary fiction."
+    },
+    {
+      "id": 670,
+      "category": "literature",
+      "difficulty": 5,
+      "question": "Who wrote the 1973 novel 'Gravity's Rainbow'?",
+      "options": [
+        "Don DeLillo",
+        "Thomas Pynchon",
+        "John Barth",
+        "William Gaddis"
+      ],
+      "answer": 1,
+      "explanation": "Thomas Pynchon's 'Gravity's Rainbow', set largely in the closing months of World War II around the V-2 rocket programme, won the 1974 National Book Award."
+    },
+    {
+      "id": 671,
+      "category": "general",
+      "difficulty": 1,
+      "question": "How many days are there in a standard (non-leap) year?",
+      "options": [
+        "360",
+        "364",
+        "365",
+        "366"
+      ],
+      "answer": 2,
+      "explanation": "A standard year has 365 days; a leap year, occurring roughly every four years, has 366 to keep the calendar aligned with the solar year."
+    },
+    {
+      "id": 672,
+      "category": "general",
+      "difficulty": 1,
+      "question": "Which number does the Roman numeral 'X' represent?",
+      "options": [
+        "5",
+        "9",
+        "10",
+        "11"
+      ],
+      "answer": 2,
+      "explanation": "In Roman numerals, X represents 10. Other key symbols include I = 1, V = 5, L = 50, C = 100, D = 500 and M = 1,000."
+    },
+    {
+      "id": 673,
+      "category": "general",
+      "difficulty": 2,
+      "question": "What is the name commonly given to a baby kangaroo?",
+      "options": [
+        "Cub",
+        "Joey",
+        "Kit",
+        "Pup"
+      ],
+      "answer": 1,
+      "explanation": "A baby kangaroo is called a joey; the term is also used for the young of other marsupials such as koalas and wallabies."
+    },
+    {
+      "id": 674,
+      "category": "general",
+      "difficulty": 2,
+      "question": "How many cards are in a standard deck of playing cards, excluding jokers?",
+      "options": [
+        "48",
+        "50",
+        "52",
+        "54"
+      ],
+      "answer": 2,
+      "explanation": "A standard deck contains 52 cards: 13 ranks (Ace through King) in each of four suits (clubs, diamonds, hearts, spades)."
+    },
+    {
+      "id": 675,
+      "category": "general",
+      "difficulty": 3,
+      "question": "What is the SI unit of electric power?",
+      "options": [
+        "Joule",
+        "Ampere",
+        "Volt",
+        "Watt"
+      ],
+      "answer": 3,
+      "explanation": "The watt (W) is the SI unit of power, defined as one joule per second; it was named after Scottish engineer James Watt."
+    },
+    {
+      "id": 676,
+      "category": "general",
+      "difficulty": 3,
+      "question": "What is the literary device called when a word imitates the sound it describes, such as 'buzz' or 'sizzle'?",
+      "options": [
+        "Alliteration",
+        "Onomatopoeia",
+        "Assonance",
+        "Hyperbole"
+      ],
+      "answer": 1,
+      "explanation": "Onomatopoeia describes words whose pronunciation imitates the sound they denote, such as 'buzz', 'click', 'sizzle' and 'meow'."
+    },
+    {
+      "id": 677,
+      "category": "general",
+      "difficulty": 4,
+      "question": "What does the acronym 'NATO' stand for?",
+      "options": [
+        "North Atlantic Treaty Organization",
+        "Northern Allied Trade Organization",
+        "National Atlantic Tactical Operations",
+        "North American Treaty Organization"
+      ],
+      "answer": 0,
+      "explanation": "NATO is the North Atlantic Treaty Organization, a military alliance founded in 1949 by the North Atlantic Treaty signed in Washington, D.C."
+    },
+    {
+      "id": 678,
+      "category": "general",
+      "difficulty": 4,
+      "question": "Which of the eight common ABO/Rh human blood types is the rarest worldwide?",
+      "options": [
+        "O negative",
+        "B negative",
+        "A negative",
+        "AB negative"
+      ],
+      "answer": 3,
+      "explanation": "AB negative is the least common of the eight major ABO/Rh blood types, found in under 1% of people in many populations."
+    },
+    {
+      "id": 679,
+      "category": "general",
+      "difficulty": 5,
+      "question": "What does 'Hanlon's Razor' famously suggest?",
+      "options": [
+        "The simplest explanation is usually the correct one",
+        "Never attribute to malice that which can be adequately explained by stupidity",
+        "Extraordinary claims require extraordinary evidence",
+        "If a thing exists, it exists in some quantity and can be measured"
+      ],
+      "answer": 1,
+      "explanation": "Hanlon's Razor is the aphorism 'Never attribute to malice that which can be adequately explained by stupidity', cautioning against assuming bad intent."
+    },
+    {
+      "id": 680,
+      "category": "general",
+      "difficulty": 5,
+      "question": "What does the 'Prisoner's Dilemma' in game theory illustrate?",
+      "options": [
+        "A scenario where everyone wins by cooperating fully",
+        "A zero-sum game between two perfectly rational players",
+        "A situation in which two rational actors choosing in self-interest produce a worse outcome than mutual cooperation",
+        "A paradox where players cannot determine the value of a fair bet"
+      ],
+      "answer": 2,
+      "explanation": "The Prisoner's Dilemma shows that two rational individuals, each pursuing self-interest, may both defect and end up worse off than if they had cooperated."
     }
   ]
 }
