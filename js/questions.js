@@ -8,27 +8,12 @@ var QuestionManager = (function() {
   var usedCategoryIds = [];
 
   /**
-   * Load questions from questions.json, fallback to window.QUESTION_DATA
+   * Load questions from questions.json
    */
   async function loadQuestions() {
-    // Try fetch first (works on local server or file:// with proper setup)
-    try {
-      var response = await fetch('data/questions.json');
-      if (response.ok) {
-        allData = await response.json();
-        return allData;
-      }
-    } catch (e) {
-      // fetch failed — use fallback
-    }
-
-    // Fallback: use embedded data
-    if (window.QUESTION_DATA) {
-      allData = window.QUESTION_DATA;
-      return allData;
-    }
-
-    throw new Error('Could not load question data');
+    var response = await fetch('data/questions.json');
+    allData = await response.json();
+    return allData;
   }
 
   /**
