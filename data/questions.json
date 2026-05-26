@@ -6621,6 +6621,1126 @@
       ],
       "answer": 1,
       "explanation": "The Mpemba effect is the counterintuitive observation that hot water can sometimes freeze faster than cold water. Named after Erasto Mpemba, a Tanzanian student who noticed this in 1963, the exact mechanisms are still debated by scientists."
+    },
+    {
+      "id": 521,
+      "category": "science",
+      "difficulty": 1,
+      "question": "Which planet in our solar system is famous for its prominent ring system?",
+      "options": [
+        "Mars",
+        "Saturn",
+        "Mercury",
+        "Venus"
+      ],
+      "answer": 1,
+      "explanation": "Saturn is renowned for its spectacular ring system, composed mostly of ice particles, rocky debris and dust. While other gas giants have rings, Saturn's are by far the most visible and extensive."
+    },
+    {
+      "id": 522,
+      "category": "science",
+      "difficulty": 1,
+      "question": "What is the chemical symbol for sodium?",
+      "options": [
+        "So",
+        "Sd",
+        "Na",
+        "S"
+      ],
+      "answer": 2,
+      "explanation": "Sodium's chemical symbol is Na, from its Latin name 'natrium'. It is a soft, silvery-white alkali metal that is highly reactive, especially with water."
+    },
+    {
+      "id": 523,
+      "category": "science",
+      "difficulty": 2,
+      "question": "Which scientist is best known for formulating the three laws of motion?",
+      "options": [
+        "Galileo Galilei",
+        "Isaac Newton",
+        "Albert Einstein",
+        "Nikola Tesla"
+      ],
+      "answer": 1,
+      "explanation": "Sir Isaac Newton (1643-1727) published his three laws of motion in 'Philosophiae Naturalis Principia Mathematica' in 1687, laying the foundation for classical mechanics."
+    },
+    {
+      "id": 524,
+      "category": "science",
+      "difficulty": 2,
+      "question": "What is the largest mammal on Earth?",
+      "options": [
+        "African elephant",
+        "Blue whale",
+        "Sperm whale",
+        "Giraffe"
+      ],
+      "answer": 1,
+      "explanation": "The blue whale (Balaenoptera musculus) is the largest animal known ever to have lived, reaching lengths of up to 30 metres and weighing as much as 200 tonnes."
+    },
+    {
+      "id": 525,
+      "category": "science",
+      "difficulty": 3,
+      "question": "Which subatomic particle carries a negative electric charge?",
+      "options": [
+        "Proton",
+        "Neutron",
+        "Electron",
+        "Photon"
+      ],
+      "answer": 2,
+      "explanation": "Electrons carry a negative charge of -1 elementary charge. Protons carry a positive charge, neutrons are electrically neutral, and photons (particles of light) have no charge."
+    },
+    {
+      "id": 526,
+      "category": "science",
+      "difficulty": 3,
+      "question": "Which planet in our solar system has a day longer than its year?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Neptune"
+      ],
+      "answer": 1,
+      "explanation": "Venus rotates so slowly (and in the opposite direction to most planets) that a single Venusian day (about 243 Earth days) is longer than its year (about 225 Earth days). This unusual rotation is one of the planet's most striking features."
+    },
+    {
+      "id": 527,
+      "category": "science",
+      "difficulty": 4,
+      "question": "Which ancient Greek philosopher is credited with the classical theory of four elements (earth, water, air and fire)?",
+      "options": [
+        "Aristotle",
+        "Plato",
+        "Empedocles",
+        "Pythagoras"
+      ],
+      "answer": 2,
+      "explanation": "Empedocles (c. 494-434 BC) proposed that all matter is composed of four 'roots': earth, water, air and fire. Aristotle later adopted and expanded the theory, adding aether as a fifth element."
+    },
+    {
+      "id": 528,
+      "category": "science",
+      "difficulty": 4,
+      "question": "Which subatomic particle was the first to be discovered?",
+      "options": [
+        "Proton",
+        "Neutron",
+        "Electron",
+        "Quark"
+      ],
+      "answer": 2,
+      "explanation": "The electron was discovered by J.J. Thomson in 1897 through his experiments with cathode rays. The proton was identified later by Ernest Rutherford in 1917, and the neutron by James Chadwick in 1932."
+    },
+    {
+      "id": 529,
+      "category": "science",
+      "difficulty": 5,
+      "question": "What does the Pauli exclusion principle state?",
+      "options": [
+        "Energy can neither be created nor destroyed",
+        "No two identical fermions can occupy the same quantum state simultaneously",
+        "The position and momentum of a particle cannot be simultaneously known",
+        "Light behaves both as a wave and a particle"
+      ],
+      "answer": 1,
+      "explanation": "Formulated by Wolfgang Pauli in 1925, the exclusion principle states that no two identical fermions (such as electrons) can occupy the same quantum state at the same time. It explains the structure of atomic electron shells and the periodic table."
+    },
+    {
+      "id": 530,
+      "category": "science",
+      "difficulty": 5,
+      "question": "What is the Casimir effect?",
+      "options": [
+        "The bending of light by gravity",
+        "A measurable attractive force between two uncharged conducting plates in a vacuum, caused by quantum vacuum fluctuations",
+        "The Doppler shift of distant galaxies",
+        "The conversion of mass into energy"
+      ],
+      "answer": 1,
+      "explanation": "Predicted by Dutch physicist Hendrik Casimir in 1948, the Casimir effect is a small but measurable attractive force between two parallel uncharged conducting plates placed close together in a vacuum. It arises from quantum fluctuations of the electromagnetic field."
+    },
+    {
+      "id": 531,
+      "category": "history",
+      "difficulty": 1,
+      "question": "Whose assassination in Sarajevo in 1914 is widely cited as the trigger for World War I?",
+      "options": [
+        "Tsar Nicholas II",
+        "Archduke Franz Ferdinand",
+        "Kaiser Wilhelm II",
+        "King George V"
+      ],
+      "answer": 1,
+      "explanation": "Archduke Franz Ferdinand of Austria and his wife Sophie were assassinated in Sarajevo on 28 June 1914 by Gavrilo Princip, a Bosnian Serb nationalist. The event set off a chain of diplomatic and military escalations that led to WWI."
+    },
+    {
+      "id": 532,
+      "category": "history",
+      "difficulty": 1,
+      "question": "In which country was Adolf Hitler born?",
+      "options": [
+        "Germany",
+        "Austria",
+        "Poland",
+        "Switzerland"
+      ],
+      "answer": 1,
+      "explanation": "Adolf Hitler was born in Braunau am Inn, Austria-Hungary (now Austria), on 20 April 1889. He moved to Germany as an adult and only acquired German citizenship in 1932."
+    },
+    {
+      "id": 533,
+      "category": "history",
+      "difficulty": 2,
+      "question": "Which English queen reigned from 1558 to 1603?",
+      "options": [
+        "Mary I",
+        "Elizabeth I",
+        "Anne",
+        "Victoria"
+      ],
+      "answer": 1,
+      "explanation": "Elizabeth I, the last monarch of the Tudor dynasty, reigned from 1558 until her death in 1603. Her 45-year reign, known as the Elizabethan era, was marked by the flourishing of English drama and the defeat of the Spanish Armada (1588)."
+    },
+    {
+      "id": 534,
+      "category": "history",
+      "difficulty": 2,
+      "question": "The Battle of Gettysburg was a pivotal engagement of which war?",
+      "options": [
+        "War of 1812",
+        "American Revolutionary War",
+        "American Civil War",
+        "Spanish-American War"
+      ],
+      "answer": 2,
+      "explanation": "Fought 1-3 July 1863, the Battle of Gettysburg was the bloodiest battle of the American Civil War and is often described as the war's turning point, halting Confederate General Robert E. Lee's invasion of the North."
+    },
+    {
+      "id": 535,
+      "category": "history",
+      "difficulty": 3,
+      "question": "Which empire fell in 1453 with the capture of its capital Constantinople?",
+      "options": [
+        "Roman Empire",
+        "Holy Roman Empire",
+        "Byzantine Empire",
+        "Persian Empire"
+      ],
+      "answer": 2,
+      "explanation": "The Byzantine Empire (the eastern continuation of the Roman Empire) ended in 1453 when Constantinople fell to the Ottoman Turks under Sultan Mehmed II. The city was renamed and became the new Ottoman capital."
+    },
+    {
+      "id": 536,
+      "category": "history",
+      "difficulty": 3,
+      "question": "Which 1066 battle led to the Norman conquest of England?",
+      "options": [
+        "Battle of Hastings",
+        "Battle of Bosworth",
+        "Battle of Agincourt",
+        "Battle of Stamford Bridge"
+      ],
+      "answer": 0,
+      "explanation": "At the Battle of Hastings on 14 October 1066, William, Duke of Normandy, defeated King Harold II of England. Harold was killed and William was crowned king on Christmas Day, beginning Norman rule in England."
+    },
+    {
+      "id": 537,
+      "category": "history",
+      "difficulty": 4,
+      "question": "Which Roman emperor's Edict of Milan in 313 AD granted religious tolerance to Christians?",
+      "options": [
+        "Diocletian",
+        "Constantine the Great",
+        "Nero",
+        "Theodosius"
+      ],
+      "answer": 1,
+      "explanation": "The Edict of Milan, issued jointly by Constantine I and Licinius in 313 AD, ended the official persecution of Christians within the Roman Empire and allowed all religions to be practised freely. Constantine later became the first Roman emperor to convert to Christianity."
+    },
+    {
+      "id": 538,
+      "category": "history",
+      "difficulty": 4,
+      "question": "Who was the Carthaginian general who famously crossed the Alps with war elephants during the Second Punic War?",
+      "options": [
+        "Hamilcar Barca",
+        "Hasdrubal",
+        "Hannibal",
+        "Scipio"
+      ],
+      "answer": 2,
+      "explanation": "Hannibal Barca (247-c. 183 BC) led his army, including war elephants, across the Alps in 218 BC to invade Roman Italy during the Second Punic War. He inflicted devastating defeats on Rome, most famously at the Battle of Cannae (216 BC)."
+    },
+    {
+      "id": 539,
+      "category": "history",
+      "difficulty": 5,
+      "question": "What did the 1494 Treaty of Tordesillas do?",
+      "options": [
+        "Ended the Hundred Years' War",
+        "Divided the newly discovered lands outside Europe between Spain and Portugal along a meridian",
+        "Established the first English colony in America",
+        "Created the Holy Roman Empire"
+      ],
+      "answer": 1,
+      "explanation": "The Treaty of Tordesillas, brokered by Pope Alexander VI in 1494, divided the non-European world between Spain and Portugal along a meridian about 370 leagues west of the Cape Verde islands. It allowed Portugal to claim Brazil and Spain most of the Americas."
+    },
+    {
+      "id": 540,
+      "category": "history",
+      "difficulty": 5,
+      "question": "What was the Bronze Age Collapse?",
+      "options": [
+        "The discovery of how to smelt bronze",
+        "A period around 1200-1150 BC during which several major civilisations in the Eastern Mediterranean and Near East collapsed",
+        "A volcanic eruption that destroyed Pompeii",
+        "The defeat of the Roman Empire by barbarian tribes"
+      ],
+      "answer": 1,
+      "explanation": "The Late Bronze Age Collapse (c. 1200-1150 BC) saw the sudden decline or destruction of major civilisations including the Mycenaeans, Hittites and Egyptian New Kingdom. Causes likely included drought, famine, invasions by the 'Sea Peoples' and systemic fragility."
+    },
+    {
+      "id": 541,
+      "category": "geography",
+      "difficulty": 1,
+      "question": "What is the capital of Italy?",
+      "options": [
+        "Milan",
+        "Venice",
+        "Rome",
+        "Naples"
+      ],
+      "answer": 2,
+      "explanation": "Rome is the capital and largest city of Italy. It was the capital of the Roman Empire and is home to Vatican City, the seat of the Roman Catholic Church."
+    },
+    {
+      "id": 542,
+      "category": "geography",
+      "difficulty": 1,
+      "question": "Which ocean lies between Africa and Australia?",
+      "options": [
+        "Atlantic Ocean",
+        "Pacific Ocean",
+        "Indian Ocean",
+        "Southern Ocean"
+      ],
+      "answer": 2,
+      "explanation": "The Indian Ocean is the third-largest of the world's oceans, bounded by Africa to the west, Asia to the north, Australia to the east and the Southern Ocean (or Antarctica) to the south."
+    },
+    {
+      "id": 543,
+      "category": "geography",
+      "difficulty": 2,
+      "question": "What is the capital of Canada?",
+      "options": [
+        "Toronto",
+        "Vancouver",
+        "Montreal",
+        "Ottawa"
+      ],
+      "answer": 3,
+      "explanation": "Ottawa, located in the province of Ontario on the Ottawa River, has been the capital of Canada since 1857. Toronto is Canada's largest city, but Ottawa is the seat of government."
+    },
+    {
+      "id": 544,
+      "category": "geography",
+      "difficulty": 2,
+      "question": "Which is the smallest continent by land area?",
+      "options": [
+        "Europe",
+        "Antarctica",
+        "Australia/Oceania",
+        "South America"
+      ],
+      "answer": 2,
+      "explanation": "Australia/Oceania is the smallest continent by land area, covering about 8.6 million square kilometres. It is also the world's smallest, flattest and (after Antarctica) driest continent."
+    },
+    {
+      "id": 545,
+      "category": "geography",
+      "difficulty": 3,
+      "question": "Which two countries are connected by the Channel Tunnel?",
+      "options": [
+        "England and Ireland",
+        "England and France",
+        "France and Belgium",
+        "Spain and Morocco"
+      ],
+      "answer": 1,
+      "explanation": "The Channel Tunnel (or 'Chunnel') is a 50.5 km undersea rail tunnel beneath the English Channel that connects Folkestone in England with Coquelles in northern France. It opened in 1994."
+    },
+    {
+      "id": 546,
+      "category": "geography",
+      "difficulty": 3,
+      "question": "Which mountain is the highest peak in Europe?",
+      "options": [
+        "Mont Blanc",
+        "Matterhorn",
+        "Mount Elbrus",
+        "Mount Olympus"
+      ],
+      "answer": 2,
+      "explanation": "Mount Elbrus in the Caucasus range of southern Russia stands at 5,642 metres, making it Europe's highest peak. Mont Blanc (4,809 m) is the highest in the Alps, and is often cited as Europe's highest if the Caucasus is considered part of Asia."
+    },
+    {
+      "id": 547,
+      "category": "geography",
+      "difficulty": 4,
+      "question": "What is the world's largest peninsula by area?",
+      "options": [
+        "Indian subcontinent",
+        "Arabian Peninsula",
+        "Scandinavian Peninsula",
+        "Indochinese Peninsula"
+      ],
+      "answer": 1,
+      "explanation": "The Arabian Peninsula, covering about 3.2 million square kilometres, is the largest peninsula in the world. It includes Saudi Arabia, Yemen, Oman, the UAE, Qatar, Bahrain and Kuwait."
+    },
+    {
+      "id": 548,
+      "category": "geography",
+      "difficulty": 4,
+      "question": "Which country contains the most islands in the world?",
+      "options": [
+        "Indonesia",
+        "Philippines",
+        "Sweden",
+        "Canada"
+      ],
+      "answer": 2,
+      "explanation": "Sweden has around 267,570 islands, more than any other country, though most are small and uninhabited. Indonesia and the Philippines are famous archipelagos, but their island counts are far lower."
+    },
+    {
+      "id": 549,
+      "category": "geography",
+      "difficulty": 5,
+      "question": "Which is the only sea in the world without coastlines?",
+      "options": [
+        "Aral Sea",
+        "Sargasso Sea",
+        "Caspian Sea",
+        "Coral Sea"
+      ],
+      "answer": 1,
+      "explanation": "The Sargasso Sea, located in the North Atlantic Ocean, is the only sea defined entirely by ocean currents rather than land. It is bounded by the Gulf Stream, North Atlantic Current, Canary Current and North Atlantic Equatorial Current."
+    },
+    {
+      "id": 550,
+      "category": "geography",
+      "difficulty": 5,
+      "question": "Which capital city lies almost exactly on the equator?",
+      "options": [
+        "Bogotá",
+        "Nairobi",
+        "Quito",
+        "Singapore"
+      ],
+      "answer": 2,
+      "explanation": "Quito, the capital of Ecuador, sits just south of the equator at a latitude of approximately 0 degrees 13 minutes south. Its name and the country's name reflect this geography ('Ecuador' is Spanish for 'equator')."
+    },
+    {
+      "id": 551,
+      "category": "entertainment",
+      "difficulty": 1,
+      "question": "Who is the lead singer of The Rolling Stones?",
+      "options": [
+        "Keith Richards",
+        "Mick Jagger",
+        "Charlie Watts",
+        "Ronnie Wood"
+      ],
+      "answer": 1,
+      "explanation": "Sir Mick Jagger has been the lead vocalist of The Rolling Stones since the band was formed in 1962. Keith Richards is the lead guitarist, while Charlie Watts (drummer until his death in 2021) and Ronnie Wood are other prominent members."
+    },
+    {
+      "id": 552,
+      "category": "entertainment",
+      "difficulty": 1,
+      "question": "What is the name of Mickey Mouse's pet dog?",
+      "options": [
+        "Goofy",
+        "Pluto",
+        "Donald",
+        "Rex"
+      ],
+      "answer": 1,
+      "explanation": "Pluto, a yellow bloodhound, is Mickey Mouse's loyal pet dog. He debuted in 1930 in 'The Chain Gang'. Despite both being Disney characters, Pluto is a dog, while Goofy is an anthropomorphic dog who walks upright and talks."
+    },
+    {
+      "id": 553,
+      "category": "entertainment",
+      "difficulty": 2,
+      "question": "Which actor played the title role in the 1994 film 'Forrest Gump'?",
+      "options": [
+        "Kevin Costner",
+        "Tom Hanks",
+        "Robin Williams",
+        "Harrison Ford"
+      ],
+      "answer": 1,
+      "explanation": "Tom Hanks won his second consecutive Academy Award for Best Actor for his portrayal of Forrest Gump in the 1994 film directed by Robert Zemeckis. The film won six Oscars including Best Picture."
+    },
+    {
+      "id": 554,
+      "category": "entertainment",
+      "difficulty": 2,
+      "question": "Which artist painted the 'Mona Lisa'?",
+      "options": [
+        "Michelangelo",
+        "Raphael",
+        "Leonardo da Vinci",
+        "Caravaggio"
+      ],
+      "answer": 2,
+      "explanation": "Leonardo da Vinci painted the 'Mona Lisa' between 1503 and 1519. The portrait of Lisa Gherardini hangs in the Louvre in Paris and is one of the most famous paintings in the world."
+    },
+    {
+      "id": 555,
+      "category": "entertainment",
+      "difficulty": 3,
+      "question": "Which American rock band recorded the 1976 hit 'Hotel California'?",
+      "options": [
+        "Fleetwood Mac",
+        "The Eagles",
+        "Lynyrd Skynyrd",
+        "Boston"
+      ],
+      "answer": 1,
+      "explanation": "'Hotel California' is the title track of The Eagles' 1976 album. The song became one of the best-known rock songs of all time and won the Grammy for Record of the Year in 1978."
+    },
+    {
+      "id": 556,
+      "category": "entertainment",
+      "difficulty": 3,
+      "question": "In the sitcom 'Friends', what is Joey Tribbiani's signature pickup line?",
+      "options": [
+        "What's up, doc?",
+        "How you doin'?",
+        "Hey there",
+        "Looking good!"
+      ],
+      "answer": 1,
+      "explanation": "'How you doin'?' is the catchphrase used by Joey Tribbiani, played by Matt LeBlanc, throughout the run of 'Friends' (1994-2004). It became one of the show's most iconic lines."
+    },
+    {
+      "id": 557,
+      "category": "entertainment",
+      "difficulty": 4,
+      "question": "Who composed the score for Disney's animated film 'The Lion King' (1994)?",
+      "options": [
+        "John Williams",
+        "Hans Zimmer",
+        "Alan Menken",
+        "Danny Elfman"
+      ],
+      "answer": 1,
+      "explanation": "Hans Zimmer won the Academy Award for Best Original Score for 'The Lion King' (1994). Elton John and Tim Rice wrote the songs for the film, including 'Circle of Life' and 'Can You Feel the Love Tonight'."
+    },
+    {
+      "id": 558,
+      "category": "entertainment",
+      "difficulty": 4,
+      "question": "Which French filmmaker is considered a leading figure of the 'Nouvelle Vague' (New Wave) cinema movement?",
+      "options": [
+        "Jean Renoir",
+        "Jean-Luc Godard",
+        "Luc Besson",
+        "Jacques Tati"
+      ],
+      "answer": 1,
+      "explanation": "Jean-Luc Godard (1930-2022) was a pioneer of the French New Wave alongside François Truffaut, Claude Chabrol and others. His 1960 film 'Breathless' (À bout de souffle) is considered one of the defining works of the movement."
+    },
+    {
+      "id": 559,
+      "category": "entertainment",
+      "difficulty": 5,
+      "question": "Who directed the 1941 film 'Citizen Kane'?",
+      "options": [
+        "Alfred Hitchcock",
+        "Orson Welles",
+        "John Ford",
+        "Frank Capra"
+      ],
+      "answer": 1,
+      "explanation": "Orson Welles directed, co-wrote, produced and starred in 'Citizen Kane' (1941) at the age of 25. Loosely based on press magnate William Randolph Hearst, it is regularly cited as one of the greatest films ever made."
+    },
+    {
+      "id": 560,
+      "category": "entertainment",
+      "difficulty": 5,
+      "question": "Which French composer wrote the opera 'Carmen'?",
+      "options": [
+        "Charles Gounod",
+        "Georges Bizet",
+        "Hector Berlioz",
+        "Claude Debussy"
+      ],
+      "answer": 1,
+      "explanation": "Georges Bizet composed 'Carmen', which premiered in Paris in 1875. The opera was poorly received at first but has since become one of the most frequently performed operas in the world. Bizet died just three months after its premiere."
+    },
+    {
+      "id": 561,
+      "category": "sports",
+      "difficulty": 1,
+      "question": "In tennis, what term is used to indicate a score of zero?",
+      "options": [
+        "Nil",
+        "Duck",
+        "Love",
+        "Zero"
+      ],
+      "answer": 2,
+      "explanation": "In tennis, a score of zero is called 'love'. The term's origin is debated, but a common theory is that it derives from the French word 'l'œuf' (egg), referring to the shape of a zero."
+    },
+    {
+      "id": 562,
+      "category": "sports",
+      "difficulty": 1,
+      "question": "In a standard football (soccer) match, how many points is a goal worth?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "In association football (soccer), every goal counts as exactly one point. The team with the most goals at the end of the match wins."
+    },
+    {
+      "id": 563,
+      "category": "sports",
+      "difficulty": 2,
+      "question": "Which boxer was famously nicknamed 'The Greatest'?",
+      "options": [
+        "Mike Tyson",
+        "Joe Frazier",
+        "Muhammad Ali",
+        "Sugar Ray Leonard"
+      ],
+      "answer": 2,
+      "explanation": "Muhammad Ali (1942-2016), born Cassius Clay, gave himself the nickname 'The Greatest'. He was a three-time world heavyweight champion and is widely regarded as one of the most significant sports figures of the 20th century."
+    },
+    {
+      "id": 564,
+      "category": "sports",
+      "difficulty": 2,
+      "question": "How many events are there in men's artistic gymnastics at the Olympics?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "Men's artistic gymnastics features six apparatus events: floor exercise, pommel horse, still rings, vault, parallel bars and horizontal bar. Women's artistic gymnastics has four apparatus events."
+    },
+    {
+      "id": 565,
+      "category": "sports",
+      "difficulty": 3,
+      "question": "In darts, what is the highest possible checkout score from a single throw of three darts?",
+      "options": [
+        "160",
+        "170",
+        "180",
+        "190"
+      ],
+      "answer": 1,
+      "explanation": "The highest possible checkout in darts is 170, achieved by hitting two triple-20s (60+60 = 120) and the bullseye (50). The match must end with a double, so the bullseye (a double-25) qualifies."
+    },
+    {
+      "id": 566,
+      "category": "sports",
+      "difficulty": 3,
+      "question": "Which female tennis player completed the calendar-year Grand Slam in 1988?",
+      "options": [
+        "Martina Navratilova",
+        "Chris Evert",
+        "Steffi Graf",
+        "Monica Seles"
+      ],
+      "answer": 2,
+      "explanation": "Steffi Graf won all four Grand Slam singles titles and Olympic gold in 1988, an achievement known as the 'Golden Slam'. She remains the only tennis player ever to have accomplished it."
+    },
+    {
+      "id": 567,
+      "category": "sports",
+      "difficulty": 4,
+      "question": "Which footballer scored the controversial 'Hand of God' goal at the 1986 World Cup?",
+      "options": [
+        "Pelé",
+        "Diego Maradona",
+        "Lionel Messi",
+        "Zinedine Zidane"
+      ],
+      "answer": 1,
+      "explanation": "Diego Maradona of Argentina punched the ball into the net against England in the 1986 World Cup quarter-final. He later claimed it was scored 'a little with the head of Maradona and a little with the hand of God'."
+    },
+    {
+      "id": 568,
+      "category": "sports",
+      "difficulty": 4,
+      "question": "In Formula 1, what does 'pole position' refer to?",
+      "options": [
+        "The pit lane entry",
+        "The first place on the starting grid, awarded for setting the fastest qualifying time",
+        "The position behind the safety car",
+        "A penalty given for a false start"
+      ],
+      "answer": 1,
+      "explanation": "Pole position is the first place on the starting grid in motor racing, given to the driver who sets the fastest qualifying lap. The term originates from horse racing, where the inside post was called the 'pole'."
+    },
+    {
+      "id": 569,
+      "category": "sports",
+      "difficulty": 5,
+      "question": "Which schoolboy is traditionally credited with inventing rugby by picking up the ball and running with it in 1823?",
+      "options": [
+        "Thomas Arnold",
+        "William Webb Ellis",
+        "Charles Alcock",
+        "Richard Lindon"
+      ],
+      "answer": 1,
+      "explanation": "According to legend, William Webb Ellis, a pupil at Rugby School in England, picked up the ball during a football match in 1823 and ran with it, supposedly creating the sport of rugby. The Rugby World Cup trophy is named after him."
+    },
+    {
+      "id": 570,
+      "category": "sports",
+      "difficulty": 5,
+      "question": "What is the 'Iron Cross' in artistic gymnastics?",
+      "options": [
+        "A vault technique",
+        "A strength element on the still rings where the gymnast holds arms straight out to the sides while suspended",
+        "A landing position on the floor exercise",
+        "An award given to the all-around champion"
+      ],
+      "answer": 1,
+      "explanation": "The Iron Cross is a strength hold on the still rings in which the gymnast holds their body upright with arms fully extended horizontally to either side. It requires enormous shoulder and chest strength and is one of gymnastics' most iconic positions."
+    },
+    {
+      "id": 571,
+      "category": "technology",
+      "difficulty": 1,
+      "question": "What does 'PC' commonly stand for in computing?",
+      "options": [
+        "Power Computer",
+        "Personal Computer",
+        "Processor Console",
+        "Public Computer"
+      ],
+      "answer": 1,
+      "explanation": "'PC' stands for Personal Computer, a term popularised by IBM with the launch of the IBM PC in 1981. It usually refers to general-purpose computers intended for individual use."
+    },
+    {
+      "id": 572,
+      "category": "technology",
+      "difficulty": 1,
+      "question": "Which input device is commonly used to move a cursor around a desktop computer screen?",
+      "options": [
+        "Monitor",
+        "Mouse",
+        "Speaker",
+        "Modem"
+      ],
+      "answer": 1,
+      "explanation": "The computer mouse, invented by Douglas Engelbart in the 1960s, is the standard pointing device used to move the cursor on a screen. It became widespread with the popularity of graphical user interfaces in the 1980s."
+    },
+    {
+      "id": 573,
+      "category": "technology",
+      "difficulty": 2,
+      "question": "Who co-founded Microsoft alongside Bill Gates?",
+      "options": [
+        "Steve Wozniak",
+        "Paul Allen",
+        "Steve Ballmer",
+        "Tim Cook"
+      ],
+      "answer": 1,
+      "explanation": "Paul Allen (1953-2018) co-founded Microsoft with Bill Gates in 1975. The two had been friends since school in Seattle. Allen left active duties at Microsoft in 1983 but remained on the board until 2000."
+    },
+    {
+      "id": 574,
+      "category": "technology",
+      "difficulty": 2,
+      "question": "What does 'LED' stand for?",
+      "options": [
+        "Light Emission Detector",
+        "Light Emitting Diode",
+        "Low Energy Display",
+        "Long Electronic Device"
+      ],
+      "answer": 1,
+      "explanation": "LED stands for Light Emitting Diode, a semiconductor device that emits light when an electric current passes through it. LEDs are used widely in displays, lighting and indicator lamps because they are energy-efficient and long-lasting."
+    },
+    {
+      "id": 575,
+      "category": "technology",
+      "difficulty": 3,
+      "question": "What is the primary role of a GPU in a computer?",
+      "options": [
+        "Storing files long-term",
+        "Performing parallel computations, especially for rendering graphics",
+        "Managing internet connections",
+        "Cooling the processor"
+      ],
+      "answer": 1,
+      "explanation": "A GPU (Graphics Processing Unit) is specialised for parallel processing, originally designed to accelerate the rendering of 3D graphics. Modern GPUs are also heavily used for machine learning, scientific computing and cryptocurrency mining."
+    },
+    {
+      "id": 576,
+      "category": "technology",
+      "difficulty": 3,
+      "question": "What does 'TCP/IP' stand for?",
+      "options": [
+        "Transfer Control Process / Internet Protocol",
+        "Transmission Control Protocol / Internet Protocol",
+        "Total Communication Path / Internet Pathway",
+        "Technical Computer Program / Internal Protocol"
+      ],
+      "answer": 1,
+      "explanation": "TCP/IP stands for Transmission Control Protocol / Internet Protocol. It is the fundamental suite of communication protocols that underpins the Internet, defining how data is packaged, addressed, transmitted, routed and received."
+    },
+    {
+      "id": 577,
+      "category": "technology",
+      "difficulty": 4,
+      "question": "In what year did Tim Berners-Lee formally propose what became the World Wide Web?",
+      "options": [
+        "1969",
+        "1983",
+        "1989",
+        "1995"
+      ],
+      "answer": 2,
+      "explanation": "Tim Berners-Lee submitted his proposal 'Information Management: A Proposal' at CERN in March 1989. He developed the first web browser and server in 1990, and the World Wide Web went public in 1991."
+    },
+    {
+      "id": 578,
+      "category": "technology",
+      "difficulty": 4,
+      "question": "What is the 'Halting Problem' in computer science?",
+      "options": [
+        "A bug that causes a program to crash unexpectedly",
+        "The problem of determining, in general, whether an arbitrary program will eventually halt or run forever; proven undecidable by Alan Turing",
+        "An algorithm for terminating infinite loops automatically",
+        "A method for pausing program execution at a breakpoint"
+      ],
+      "answer": 1,
+      "explanation": "The Halting Problem asks whether there exists a general algorithm that can decide, for any program and input, whether the program will eventually halt. Alan Turing proved in 1936 that no such algorithm can exist - it is undecidable."
+    },
+    {
+      "id": 579,
+      "category": "technology",
+      "difficulty": 5,
+      "question": "What does the famous 'P vs NP' problem in computer science ask?",
+      "options": [
+        "Whether parallel and non-parallel computing have equal power",
+        "Whether every problem whose solution can be quickly verified can also be quickly solved",
+        "Whether quantum computers can outperform classical computers",
+        "Whether all programs must terminate"
+      ],
+      "answer": 1,
+      "explanation": "P vs NP asks whether every problem for which a solution can be verified in polynomial time (NP) can also be solved in polynomial time (P). It is one of the seven Millennium Prize Problems, with a US$1 million prize for a proof or disproof."
+    },
+    {
+      "id": 580,
+      "category": "technology",
+      "difficulty": 5,
+      "question": "What is a Merkle tree primarily used for?",
+      "options": [
+        "Sorting data in a database",
+        "Efficient and secure verification of large data structures, widely used in blockchains and distributed systems",
+        "Compressing image files",
+        "Drawing UI components on a webpage"
+      ],
+      "answer": 1,
+      "explanation": "A Merkle tree (named after Ralph Merkle) is a hash-based binary tree in which every leaf is a hash of a data block and every internal node is a hash of its children. It allows efficient and secure verification of large data structures and is core to Bitcoin, Ethereum, Git and many other systems."
+    },
+    {
+      "id": 581,
+      "category": "literature",
+      "difficulty": 1,
+      "question": "Who wrote 'The Cat in the Hat'?",
+      "options": [
+        "Roald Dahl",
+        "Dr. Seuss",
+        "Beatrix Potter",
+        "Maurice Sendak"
+      ],
+      "answer": 1,
+      "explanation": "'The Cat in the Hat' (1957) was written and illustrated by Theodor Seuss Geisel under his pen name Dr. Seuss. It was created using a limited vocabulary to help young children learn to read."
+    },
+    {
+      "id": 582,
+      "category": "literature",
+      "difficulty": 1,
+      "question": "Which Roald Dahl novel features a boy who travels inside an enormous piece of fruit?",
+      "options": [
+        "The BFG",
+        "Matilda",
+        "James and the Giant Peach",
+        "Fantastic Mr Fox"
+      ],
+      "answer": 2,
+      "explanation": "'James and the Giant Peach' (1961) tells the story of orphaned James Henry Trotter, who escapes his cruel aunts by climbing inside a magically enlarged peach inhabited by talking insects."
+    },
+    {
+      "id": 583,
+      "category": "literature",
+      "difficulty": 2,
+      "question": "Who wrote the novella 'Of Mice and Men'?",
+      "options": [
+        "Ernest Hemingway",
+        "John Steinbeck",
+        "F. Scott Fitzgerald",
+        "William Faulkner"
+      ],
+      "answer": 1,
+      "explanation": "John Steinbeck published 'Of Mice and Men' in 1937. The story follows two displaced migrant ranch workers, George and Lennie, during the Great Depression in California."
+    },
+    {
+      "id": 584,
+      "category": "literature",
+      "difficulty": 2,
+      "question": "In Charles Dickens' 'A Christmas Carol', what is the name of Scrooge's deceased business partner?",
+      "options": [
+        "Jacob Marley",
+        "Bob Cratchit",
+        "Mr Fezziwig",
+        "Tiny Tim"
+      ],
+      "answer": 0,
+      "explanation": "Jacob Marley is Ebenezer Scrooge's late business partner, dead for seven years before the story begins. His ghost visits Scrooge on Christmas Eve to warn him of the consequences of a greedy, selfish life."
+    },
+    {
+      "id": 585,
+      "category": "literature",
+      "difficulty": 3,
+      "question": "Who wrote 'The Picture of Dorian Gray'?",
+      "options": [
+        "George Bernard Shaw",
+        "Oscar Wilde",
+        "Bram Stoker",
+        "Thomas Hardy"
+      ],
+      "answer": 1,
+      "explanation": "Oscar Wilde's only novel, 'The Picture of Dorian Gray', was first published in 1890. It tells the story of a beautiful young man whose portrait ages in his place while he remains youthful, exploring themes of aestheticism and moral corruption."
+    },
+    {
+      "id": 586,
+      "category": "literature",
+      "difficulty": 3,
+      "question": "What is the name of the protagonist in Albert Camus' novel 'The Stranger' (L'Étranger)?",
+      "options": [
+        "Jean Tarrou",
+        "Meursault",
+        "Bernard Rieux",
+        "Caligula"
+      ],
+      "answer": 1,
+      "explanation": "Meursault is the emotionally detached narrator of Camus' 1942 existentialist novel 'The Stranger'. The story follows his indifference to his mother's death and his subsequent killing of an Arab on an Algerian beach."
+    },
+    {
+      "id": 587,
+      "category": "literature",
+      "difficulty": 4,
+      "question": "Who wrote the seven-volume novel 'In Search of Lost Time' (À la recherche du temps perdu)?",
+      "options": [
+        "Victor Hugo",
+        "Marcel Proust",
+        "Émile Zola",
+        "Albert Camus"
+      ],
+      "answer": 1,
+      "explanation": "Marcel Proust wrote 'In Search of Lost Time' (sometimes translated 'Remembrance of Things Past') in seven volumes published between 1913 and 1927. At about 1.2 million words, it is one of the longest novels ever written and is famous for the 'madeleine' moment of involuntary memory."
+    },
+    {
+      "id": 588,
+      "category": "literature",
+      "difficulty": 4,
+      "question": "Which Nigerian author wrote the 1958 novel 'Things Fall Apart'?",
+      "options": [
+        "Wole Soyinka",
+        "Chinua Achebe",
+        "Ben Okri",
+        "Ngũgĩ wa Thiong'o"
+      ],
+      "answer": 1,
+      "explanation": "Chinua Achebe's debut novel 'Things Fall Apart' (1958) is considered a foundational work of modern African literature. It follows Okonkwo, a leader in an Igbo village, and depicts the impact of colonialism and Christian missionaries on traditional Igbo society."
+    },
+    {
+      "id": 589,
+      "category": "literature",
+      "difficulty": 5,
+      "question": "Which literary movement of the late 18th and early 19th centuries emphasised emotion, nature and individualism?",
+      "options": [
+        "Realism",
+        "Modernism",
+        "Romanticism",
+        "Naturalism"
+      ],
+      "answer": 2,
+      "explanation": "Romanticism flourished in Europe roughly from 1800 to 1850 as a reaction against the rationalism of the Enlightenment and the upheavals of the Industrial Revolution. It emphasised intense emotion, the sublime in nature, imagination and the heroic individual. Key figures include Wordsworth, Byron, Goethe and the Shelleys."
+    },
+    {
+      "id": 590,
+      "category": "literature",
+      "difficulty": 5,
+      "question": "Which Russian author wrote 'The Master and Margarita', a satirical novel in which the Devil visits Soviet Moscow?",
+      "options": [
+        "Boris Pasternak",
+        "Mikhail Bulgakov",
+        "Aleksandr Solzhenitsyn",
+        "Vladimir Nabokov"
+      ],
+      "answer": 1,
+      "explanation": "Mikhail Bulgakov wrote 'The Master and Margarita' between 1928 and 1940, but it was not published until 1966-67, more than a quarter-century after his death. It is widely regarded as one of the greatest novels of the 20th century."
+    },
+    {
+      "id": 591,
+      "category": "general",
+      "difficulty": 1,
+      "question": "What colour do you get when you mix red and yellow paint?",
+      "options": [
+        "Purple",
+        "Green",
+        "Orange",
+        "Brown"
+      ],
+      "answer": 2,
+      "explanation": "Mixing the primary colours red and yellow produces orange, one of the three traditional secondary colours alongside green (blue + yellow) and purple (red + blue)."
+    },
+    {
+      "id": 592,
+      "category": "general",
+      "difficulty": 1,
+      "question": "What is the typical colour of a ripe banana?",
+      "options": [
+        "Green",
+        "Red",
+        "Yellow",
+        "Purple"
+      ],
+      "answer": 2,
+      "explanation": "Most commercially sold bananas (the Cavendish variety) are green when unripe and turn yellow as they ripen, eventually developing brown spots. Some banana varieties remain red, purple or pink even when ripe."
+    },
+    {
+      "id": 593,
+      "category": "general",
+      "difficulty": 2,
+      "question": "What is the term for animals that eat only plants?",
+      "options": [
+        "Carnivores",
+        "Omnivores",
+        "Herbivores",
+        "Detritivores"
+      ],
+      "answer": 2,
+      "explanation": "Herbivores are animals whose diet consists entirely of plant material. Examples include cows, deer, rabbits and elephants. Carnivores eat meat, omnivores eat both, and detritivores feed on decaying organic matter."
+    },
+    {
+      "id": 594,
+      "category": "general",
+      "difficulty": 2,
+      "question": "What unit is used to measure the loudness of sound?",
+      "options": [
+        "Hertz",
+        "Watt",
+        "Decibel",
+        "Lumen"
+      ],
+      "answer": 2,
+      "explanation": "Decibels (dB) are a logarithmic unit used to measure sound intensity. The scale is logarithmic because human hearing perceives loudness this way - every 10 dB increase represents a tenfold increase in sound intensity."
+    },
+    {
+      "id": 595,
+      "category": "general",
+      "difficulty": 3,
+      "question": "What is the term for a word that has the same or nearly the same meaning as another?",
+      "options": [
+        "Antonym",
+        "Synonym",
+        "Homonym",
+        "Acronym"
+      ],
+      "answer": 1,
+      "explanation": "A synonym is a word that means the same or nearly the same as another. Antonyms have opposite meanings, homonyms sound the same but have different meanings, and acronyms are formed from the initial letters of a phrase."
+    },
+    {
+      "id": 596,
+      "category": "general",
+      "difficulty": 3,
+      "question": "What angle is exactly 90 degrees called?",
+      "options": [
+        "Acute angle",
+        "Obtuse angle",
+        "Right angle",
+        "Reflex angle"
+      ],
+      "answer": 2,
+      "explanation": "A right angle measures exactly 90 degrees and is typically marked with a small square. Acute angles are less than 90 degrees, obtuse angles are between 90 and 180 degrees, and reflex angles are greater than 180 degrees."
+    },
+    {
+      "id": 597,
+      "category": "general",
+      "difficulty": 4,
+      "question": "What is the name for a polygon with ten sides?",
+      "options": [
+        "Octagon",
+        "Nonagon",
+        "Decagon",
+        "Dodecagon"
+      ],
+      "answer": 2,
+      "explanation": "A decagon is a polygon with ten sides and ten angles. The name comes from the Greek 'deka' (ten) and 'gonia' (angle). A regular decagon has interior angles of 144 degrees."
+    },
+    {
+      "id": 598,
+      "category": "general",
+      "difficulty": 4,
+      "question": "What is the fear of enclosed or confined spaces called?",
+      "options": [
+        "Agoraphobia",
+        "Claustrophobia",
+        "Acrophobia",
+        "Hydrophobia"
+      ],
+      "answer": 1,
+      "explanation": "Claustrophobia is the fear of confined spaces. Agoraphobia is the fear of open or crowded places, acrophobia is the fear of heights, and hydrophobia is the fear of water (and a historical term for rabies)."
+    },
+    {
+      "id": 599,
+      "category": "general",
+      "difficulty": 5,
+      "question": "What is the 'Streisand effect'?",
+      "options": [
+        "A psychological bias where popular opinions feel more correct",
+        "The phenomenon where attempting to hide or remove information unintentionally draws more attention to it",
+        "A musical technique used in show tunes",
+        "An economic theory about celebrity endorsements"
+      ],
+      "answer": 1,
+      "explanation": "The Streisand effect is named after Barbra Streisand, who in 2003 sued to suppress an aerial photograph of her Malibu home. The lawsuit drew massive attention to the image, which had previously been almost unnoticed. The term now describes any attempt at suppression that backfires by publicising what was meant to be hidden."
+    },
+    {
+      "id": 600,
+      "category": "general",
+      "difficulty": 5,
+      "question": "In chaos theory, what does the 'butterfly effect' describe?",
+      "options": [
+        "The migration patterns of butterflies",
+        "The idea that small changes in initial conditions can lead to large differences in outcomes in complex systems",
+        "An optical illusion that resembles butterfly wings",
+        "A method for measuring atmospheric pressure"
+      ],
+      "answer": 1,
+      "explanation": "The butterfly effect, popularised by meteorologist Edward Lorenz, illustrates how sensitive dependence on initial conditions in chaotic systems means that small perturbations - figuratively the flap of a butterfly's wings - can have very large, unpredictable consequences elsewhere, such as influencing the formation of a distant tornado."
     }
   ]
 }
