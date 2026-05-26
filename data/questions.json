@@ -6108,15 +6108,15 @@
       "id": 483,
       "category": "literature",
       "difficulty": 2,
-      "question": "Which novel by Harper Lee features the character Scout Finch?",
+      "question": "Who wrote the 1897 gothic horror novel 'Dracula'?",
       "options": [
-        "The Catcher in the Rye",
-        "To Kill a Mockingbird",
-        "Little Women",
-        "The Color Purple"
+        "Mary Shelley",
+        "Bram Stoker",
+        "Edgar Allan Poe",
+        "H.G. Wells"
       ],
       "answer": 1,
-      "explanation": "Scout Finch is the narrator of 'To Kill a Mockingbird' (1960) by Harper Lee. The novel explores themes of racial injustice in the American South through the eyes of the young protagonist."
+      "explanation": "'Dracula' was written by Irish author Bram Stoker and published in 1897. The epistolary novel, told through letters and diary entries, established many of the conventions of vampire fiction."
     },
     {
       "id": 484,
